@@ -6,6 +6,9 @@
   <title>Mütekabiliyet Endeksi</title>
   <style>
     body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.45; }
+    .toolbar { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; margin: 1rem 0 1.5rem; }
+    .lang-switch button { border: 1px solid #bbb; background: #fff; padding: .45rem .75rem; border-radius: .5rem; cursor: pointer; }
+    .lang-switch button[aria-pressed="true"] { background: #111; color: #fff; border-color: #111; }
     code { background: #eee; padding: .1rem .25rem; border-radius: .25rem; }
     table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
     th, td { border: 1px solid #ddd; padding: .4rem; text-align: left; }
@@ -15,6 +18,13 @@
   <h1>Mütekabiliyet Endeksi</h1>
   <p>Bir ülke senden vize istiyorsa, sen de ondan vize istiyor musun?</p>
   <p><strong>Not:</strong> Buna daha ağır bir dille “Kapitülasyon Endeksi” de diyebiliriz.</p>
+
+  <div class="toolbar">
+    <div class="lang-switch" aria-label="Language switch">
+      <button type="button" data-lang="tr" aria-pressed="true">Türkçe</button>
+      <button type="button" data-lang="en" aria-pressed="false">English</button>
+    </div>
+  </div>
 
   <div id="app">Yükleniyor...</div>
 

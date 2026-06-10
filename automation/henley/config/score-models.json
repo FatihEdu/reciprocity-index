@@ -1,5 +1,5 @@
 {
-  "defaultModel": "reciprocity-v1",
+  "defaultModel": "strict-v1",
   "models": {
     "reciprocity-v1": {
       "label": {
@@ -23,12 +23,16 @@
         "tr": "Sert Mütekabiliyet Skoru",
         "en": "Strict Reciprocity Score"
       },
+      "description": {
+        "tr": "Vize şartlarını tam sayılı ve sert ağırlıklarla ölçer.",
+        "en": "Measures visa requirements with strict integer weights."
+      },
       "weights": {
         "visa_free": 0,
-        "electronic_travel_authorisation": 0.5,
-        "visa_on_arrival": 1,
-        "visa_online": 1.5,
-        "visa_required": 2
+        "electronic_travel_authorisation": 1,
+        "visa_on_arrival": 3,
+        "visa_online": 4,
+        "visa_required": 10
       }
     }
   }

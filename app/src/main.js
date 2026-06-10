@@ -1,4 +1,4 @@
-const STATUS_WEIGHT = {
+const DEFAULT_STATUS_WEIGHT = {
   visa_free: 0,
   electronic_travel_authorisation: 1,
   visa_on_arrival: 3,
@@ -17,7 +17,7 @@ const I18N = {
     lastChange: 'Son veri değişimi',
     missingDate: 'bilinmiyor',
     headingGlobal: 'Küresel Sıralama (Skor ne kadar düşükse o kadar kötü)',
-    headingDetail: 'için Mütekabiliyet Detayları',
+    headingDetail: 'Mütekabiliyet Detayları',
     country: 'Ülke',
     globalScore: 'Küresel Skor',
     score: 'Skor',
@@ -30,7 +30,8 @@ const I18N = {
     filterCustomInc: 'Özel (Sadece Seçilenler)',
     filterCustomExc: 'Özel (Seçilenler Hariç)',
     customSelectHelp: 'Birden fazla ülke seçmek için Ctrl/Cmd tuşuna basılı tutun.',
-    clickHint: '(Detaylar için tıklayın)'
+    clickHint: '(Detaylar için tıklayın)',
+    noResults: 'Sonuç bulunamadı.'
   },
   en: {
     title: 'Reciprocity Index',
@@ -42,7 +43,7 @@ const I18N = {
     lastChange: 'Last data change',
     missingDate: 'unknown',
     headingGlobal: 'Global Ranking (Lower score is worse)',
-    headingDetail: 'Reciprocity Details for',
+    headingDetail: 'Reciprocity Details',
     country: 'Country',
     globalScore: 'Global Score',
     score: 'Score',
@@ -55,7 +56,8 @@ const I18N = {
     filterCustomInc: 'Custom (Include Only)',
     filterCustomExc: 'Custom (Exclude)',
     customSelectHelp: 'Hold Ctrl/Cmd to select multiple countries.',
-    clickHint: '(Click for details)'
+    clickHint: '(Click for details)',
+    noResults: 'No results found.'
   },
 };
 
@@ -100,7 +102,7 @@ function buildStatusMap(rows) {
   return map;
 }
 
-function pairScore(a, b, status, weights = STATUS_WEIGHT) {
+function pairScore(a, b, status, weights = DEFAULT_STATUS_WEIGHT) {
   const aToB = status[a]?.access?.[b];
   const bToA = status[b]?.access?.[a];
   if (!aToB || !bToA) return null;
@@ -109,6 +111,21 @@ function pairScore(a, b, status, weights = STATUS_WEIGHT) {
 
 function countryName(code, countries) {
   return countries[code]?.country || code;
+}
+
+function esc(value) {
+  return String(value ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('\"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function getScoreWeightsFromModels(scoreModels) {
+  const defaultModel = scoreModels?.defaultModel;
+  const weights = scoreModels?.models?.[defaultModel]?.weights;
+  return weights || DEFAULT_STATUS_WEIGHT;
 }
 
 async function main() {
@@ -125,10 +142,11 @@ async function main() {
   let currentFilterType = 'all';
   let customFilterSelection = [];
   
-  let passportsText, countries, manifest;
+  let passportsText, countries, manifest, scoreModels;
   let status = {};
   let origins = [];
   let globalScores = [];
+  let scoreWeights = DEFAULT_STATUS_WEIGHT;
 
   function syncStaticCopy() {
     title.textContent = t(lang, 'title');
@@ -153,10 +171,11 @@ async function main() {
   }
 
   try {
-    [passportsText, countries, manifest] = await Promise.all([
+    [passportsText, countries, manifest, scoreModels] = await Promise.all([
       fetchText('./data/latest/passports.jsonl'),
       fetchJson('./data/latest/countries.json'),
       fetchJson('./data/latest/manifest.json'),
+      fetchJson('./data/latest/score-models.json'),
     ]);
   } catch (err) {
     app.textContent = t(lang, 'errorPrefix') + err.message;
@@ -166,6 +185,7 @@ async function main() {
   const rows = parseJsonl(passportsText);
   status = buildStatusMap(rows);
   origins = rows.map(r => r.code).sort();
+  scoreWeights = getScoreWeightsFromModels(scoreModels);
 
   // Calculate global scores for all countries
   for (const base of origins) {
@@ -173,7 +193,7 @@ async function main() {
     let validPairs = 0;
     for (const target of origins) {
       if (base === target) continue;
-      const score = pairScore(base, target, status);
+      const score = pairScore(base, target, status, scoreWeights);
       if (score !== null) {
         totalScore += score;
         validPairs++;
@@ -186,28 +206,35 @@ async function main() {
   // Sort global scores lowest to highest (most negative first)
   globalScores.sort((a, b) => a.score - b.score || a.code.localeCompare(b.code));
 
-  window.handleCountryClick = function(code) {
-    currentCountryCode = code;
-    currentFilterType = 'all';
-    customFilterSelection = [];
-    render();
-  };
+  app.addEventListener('click', event => {
+    const actionTarget = event.target.closest('[data-action]');
+    if (!actionTarget) return;
 
-  window.handleBackClick = function() {
-    currentCountryCode = null;
-    render();
-  };
+    const action = actionTarget.dataset.action;
+    if (action === 'country') {
+      currentCountryCode = actionTarget.dataset.code;
+      currentFilterType = 'all';
+      customFilterSelection = [];
+      render();
+    }
 
-  window.handleFilterChange = function(e) {
-    currentFilterType = e.value;
-    render();
-  };
+    if (action === 'back') {
+      currentCountryCode = null;
+      render();
+    }
+  });
 
-  window.handleCustomSelectChange = function(e) {
-    const selected = Array.from(e.selectedOptions).map(opt => opt.value);
-    customFilterSelection = selected;
-    render();
-  };
+  app.addEventListener('change', event => {
+    if (event.target.id === 'filterSelect') {
+      currentFilterType = event.target.value;
+      render();
+    }
+
+    if (event.target.id === 'customCountrySelect') {
+      customFilterSelection = Array.from(event.target.selectedOptions).map(opt => opt.value);
+      render();
+    }
+  });
 
   function render() {
     if (!currentCountryCode) {
@@ -229,8 +256,8 @@ async function main() {
         <thead><tr><th>${t(lang, 'country')}</th><th>${t(lang, 'globalScore')}</th></tr></thead>
         <tbody>
           ${globalScores.map(x => `
-            <tr class="clickable" onclick="handleCountryClick('${x.code}')">
-              <td><strong>${countryName(x.code, countries)}</strong> <span style="color: #888;">(${x.code})</span></td>
+            <tr class="clickable" data-action="country" data-code="${esc(x.code)}">
+              <td><strong>${esc(countryName(x.code, countries))}</strong> <span style="color: #888;">(${esc(x.code)})</span></td>
               <td>${x.score > 0 ? '+' + x.score : x.score}</td>
             </tr>
           `).join('')}
@@ -246,7 +273,7 @@ async function main() {
     
     for (const target of origins) {
       if (target === base) continue;
-      const score = pairScore(base, target, status);
+      const score = pairScore(base, target, status, scoreWeights);
       if (score === null) continue;
       
       // Apply filters
@@ -255,7 +282,7 @@ async function main() {
       
       if (currentFilterType === 'schengen_only' && !isSchengen) continue;
       if (currentFilterType === 'schengen_except' && isSchengen) continue;
-      if (currentFilterType === 'custom_include' && customFilterSelection.length > 0 && !customFilterSelection.includes(target)) continue;
+      if (currentFilterType === 'custom_include' && !customFilterSelection.includes(target)) continue;
       if (currentFilterType === 'custom_exclude' && customFilterSelection.length > 0 && customFilterSelection.includes(target)) continue;
 
       scored.push({ code: target, score });
@@ -267,13 +294,13 @@ async function main() {
     const showCustomSelect = (currentFilterType === 'custom_include' || currentFilterType === 'custom_exclude');
 
     let html = `
-      <button class="nav-btn" onclick="handleBackClick()">${t(lang, 'backBtn')}</button>
+      <button class="nav-btn" data-action="back" type="button">${t(lang, 'backBtn')}</button>
       
-      <h2>${currentCountryCode === 'TR' ? t(lang, 'country') + ' ' : ''}${countryName(base, countries)} ${t(lang, 'headingDetail')}</h2>
+      <h2>${esc(countryName(base, countries))} — ${t(lang, 'headingDetail')}</h2>
       
       <div class="filter-bar">
         <label for="filterSelect">${t(lang, 'filterLabel')}</label>
-        <select id="filterSelect" onchange="handleFilterChange(this)">
+        <select id="filterSelect">
           <option value="all" ${currentFilterType === 'all' ? 'selected' : ''}>${t(lang, 'filterAll')}</option>
           <option value="schengen_only" ${currentFilterType === 'schengen_only' ? 'selected' : ''}>${t(lang, 'filterSchengen')}</option>
           <option value="schengen_except" ${currentFilterType === 'schengen_except' ? 'selected' : ''}>${t(lang, 'filterNotSchengen')}</option>
@@ -284,10 +311,10 @@ async function main() {
         ${showCustomSelect ? `
           <div class="filter-custom">
             <label style="font-size: 0.85rem; color: #555;">${t(lang, 'customSelectHelp')}</label>
-            <select multiple onchange="handleCustomSelectChange(this)">
+            <select id="customCountrySelect" multiple>
               ${origins.filter(c => c !== base).map(c => `
                 <option value="${c}" ${customFilterSelection.includes(c) ? 'selected' : ''}>
-                  ${countryName(c, countries)} (${c})
+                  ${esc(countryName(c, countries))} (${esc(c)})
                 </option>
               `).join('')}
             </select>
@@ -300,11 +327,11 @@ async function main() {
         <tbody>
           ${scored.map(x => `
             <tr>
-              <td>${countryName(x.code, countries)} <span style="color: #888;">(${x.code})</span></td>
+              <td>${esc(countryName(x.code, countries))} <span style="color: #888;">(${esc(x.code)})</span></td>
               <td>${x.score > 0 ? '+' + x.score : x.score}</td>
             </tr>
           `).join('')}
-          ${scored.length === 0 ? `<tr><td colspan="2" style="text-align:center; color:#888; padding: 2rem;">Sonuç bulunamadı.</td></tr>` : ''}
+          ${scored.length === 0 ? `<tr><td colspan="2" style="text-align:center; color:#888; padding: 2rem;">${t(lang, 'noResults')}</td></tr>` : ''}
         </tbody>
       </table>
     `;

@@ -48,8 +48,14 @@ jobs:
           if git ls-remote --exit-code --heads "$REPO_URL" data > /dev/null 2>&1; then
             git clone --depth 1 --branch data "$REPO_URL" data-worktree
           else
-            echo "data branch is missing; publishing with empty dataset." >&2
-            mkdir -p data-worktree/latest
+            status=$?
+            if [ "$status" -eq 2 ]; then
+              echo "data branch is missing; publishing with empty dataset." >&2
+              mkdir -p data-worktree/latest
+            else
+              echo "failed to check data branch (exit code: $status)." >&2
+              exit "$status"
+            fi
           fi
 
       - name: Build static site

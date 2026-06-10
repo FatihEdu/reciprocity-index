@@ -48,8 +48,8 @@ jobs:
           if git ls-remote --exit-code --heads "$REPO_URL" data > /dev/null 2>&1; then
             git clone --depth 1 --branch data "$REPO_URL" data-worktree
           else
-            echo "data branch is missing; run Fetch Henley Data first." >&2
-            exit 1
+            echo "data branch is missing; publishing with empty dataset." >&2
+            mkdir -p data-worktree/latest
           fi
 
       - name: Build static site
@@ -59,7 +59,9 @@ jobs:
           mkdir -p dist
           cp -R main-src/app/. dist/
           mkdir -p dist/data/latest dist/data/map
-          cp -R data-worktree/latest/. dist/data/latest/
+          if [ -d data-worktree/latest ]; then
+            cp -R data-worktree/latest/. dist/data/latest/
+          fi
           if [ -d data-worktree/assets ]; then
             cp -R data-worktree/assets/. dist/data/map/
           fi

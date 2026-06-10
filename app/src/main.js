@@ -1,4 +1,4 @@
-const STATUS_WEIGHT = {
+const DEFAULT_STATUS_WEIGHT = {
   visa_free: 0,
   electronic_travel_authorisation: 1,
   visa_on_arrival: 3,
@@ -13,13 +13,25 @@ const I18N = {
     noteLabel: 'Not:',
     noteText: 'Buna daha ağır bir dille “Kapitülasyon Endeksi” de diyebiliriz.',
     loading: 'Yükleniyor...',
-    originCount: 'Origin sayısı',
+    originCount: 'Ülke sayısı',
     lastChange: 'Son veri değişimi',
     missingDate: 'bilinmiyor',
-    heading: 'Türkiye için en negatif örnekler',
+    headingGlobal: 'Küresel Sıralama (Skor ne kadar düşükse o kadar kötü)',
+    headingDetail: 'Mütekabiliyet Detayları',
     country: 'Ülke',
+    globalScore: 'Küresel Skor',
     score: 'Skor',
     errorPrefix: 'Hata: ',
+    backBtn: '← Küresel Sıralamaya Dön',
+    filterLabel: 'Filtre:',
+    filterAll: 'Tümü',
+    filterSchengen: 'Sadece Schengen',
+    filterNotSchengen: 'Schengen Hariç',
+    filterCustomInc: 'Özel (Sadece Seçilenler)',
+    filterCustomExc: 'Özel (Seçilenler Hariç)',
+    customSelectHelp: 'Birden fazla ülke seçmek için Ctrl/Cmd tuşuna basılı tutun.',
+    clickHint: '(Detaylar için tıklayın)',
+    noResults: 'Sonuç bulunamadı.'
   },
   en: {
     title: 'Reciprocity Index',
@@ -27,13 +39,25 @@ const I18N = {
     noteLabel: 'Note:',
     noteText: 'In a heavier tone, you could also call this the “Capitulation Index.”',
     loading: 'Loading...',
-    originCount: 'Origin count',
+    originCount: 'Country count',
     lastChange: 'Last data change',
     missingDate: 'unknown',
-    heading: 'Most negative examples for Turkey',
+    headingGlobal: 'Global Ranking (Lower score is worse)',
+    headingDetail: 'Reciprocity Details',
     country: 'Country',
+    globalScore: 'Global Score',
     score: 'Score',
     errorPrefix: 'Error: ',
+    backBtn: '← Back to Global Ranking',
+    filterLabel: 'Filter:',
+    filterAll: 'All',
+    filterSchengen: 'Schengen Only',
+    filterNotSchengen: 'Except Schengen',
+    filterCustomInc: 'Custom (Include Only)',
+    filterCustomExc: 'Custom (Exclude)',
+    customSelectHelp: 'Hold Ctrl/Cmd to select multiple countries.',
+    clickHint: '(Click for details)',
+    noResults: 'No results found.'
   },
 };
 
@@ -78,7 +102,7 @@ function buildStatusMap(rows) {
   return map;
 }
 
-function pairScore(a, b, status, weights = STATUS_WEIGHT) {
+function pairScore(a, b, status, weights = DEFAULT_STATUS_WEIGHT) {
   const aToB = status[a]?.access?.[b];
   const bToA = status[b]?.access?.[a];
   if (!aToB || !bToA) return null;
@@ -89,74 +113,240 @@ function countryName(code, countries) {
   return countries[code]?.country || code;
 }
 
+function esc(value) {
+  return String(value ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('\"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function getScoreWeightsFromModels(scoreModels) {
+  const defaultModel = scoreModels?.defaultModel;
+  const weights = scoreModels?.models?.[defaultModel]?.weights;
+  return weights || DEFAULT_STATUS_WEIGHT;
+}
+
 async function main() {
   let lang = setLanguage(detectLanguage());
   const app = document.getElementById('app');
   const title = document.querySelector('title');
-  const h1 = document.querySelector('h1');
-  const description = document.querySelector('body > p');
-  const note = document.querySelector('body > p + p');
+  const h1 = document.getElementById('main-title');
+  const description = document.getElementById('main-desc');
+  const note = document.getElementById('main-note');
   const langButtons = Array.from(document.querySelectorAll('.lang-switch button'));
+
+  // State
+  let currentCountryCode = null;
+  let currentFilterType = 'all';
+  let customFilterSelection = [];
+  
+  let passportsText, countries, manifest, scoreModels;
+  let status = {};
+  let origins = [];
+  let globalScores = [];
+  let scoreWeights = DEFAULT_STATUS_WEIGHT;
 
   function syncStaticCopy() {
     title.textContent = t(lang, 'title');
-    h1.textContent = t(lang, 'title');
-    description.textContent = t(lang, 'description');
-    note.innerHTML = `<strong>${t(lang, 'noteLabel')}</strong> ${t(lang, 'noteText')}`;
+    if (h1) h1.textContent = t(lang, 'title');
+    if (description) description.textContent = t(lang, 'description');
+    if (note) note.innerHTML = `<strong>${t(lang, 'noteLabel')}</strong> ${t(lang, 'noteText')}`;
     langButtons.forEach(button => {
       const active = button.dataset.lang === lang;
       button.setAttribute('aria-pressed', String(active));
     });
   }
 
-  const [passportsText, countries, manifest] = await Promise.all([
-    fetchText('./data/latest/passports.jsonl'),
-    fetchJson('./data/latest/countries.json'),
-    fetchJson('./data/latest/manifest.json'),
-  ]);
-
-  const rows = parseJsonl(passportsText);
-  const status = buildStatusMap(rows);
-  const origins = rows.map(r => r.code).sort();
-
-  const base = 'TR';
-  const scored = [];
-  for (const target of origins) {
-    if (target === base) continue;
-    const score = pairScore(base, target, status);
-    if (score === null) continue;
-    scored.push({ code: target, score });
-  }
-  scored.sort((a, b) => a.score - b.score || a.code.localeCompare(b.code));
-
+  // Bind language buttons before data fetch to avoid 404 bugs
   syncStaticCopy();
-
   for (const button of langButtons) {
     button.addEventListener('click', () => {
       lang = setLanguage(button.dataset.lang);
       syncStaticCopy();
-      render();
+      if (origins.length > 0) render(); // re-render if data is loaded
+      else app.textContent = t(lang, 'loading');
     });
   }
 
+  try {
+    [passportsText, countries, manifest, scoreModels] = await Promise.all([
+      fetchText('./data/latest/passports.jsonl'),
+      fetchJson('./data/latest/countries.json'),
+      fetchJson('./data/latest/manifest.json'),
+      fetchJson('./data/latest/score-models.json'),
+    ]);
+  } catch (err) {
+    app.textContent = t(lang, 'errorPrefix') + err.message;
+    return; // Stop execution if data fetch fails, but language switcher will still work
+  }
+
+  const rows = parseJsonl(passportsText);
+  status = buildStatusMap(rows);
+  origins = rows.map(r => r.code).sort();
+  scoreWeights = getScoreWeightsFromModels(scoreModels);
+
+  // Calculate global scores for all countries
+  for (const base of origins) {
+    let totalScore = 0;
+    let validPairs = 0;
+    for (const target of origins) {
+      if (base === target) continue;
+      const score = pairScore(base, target, status, scoreWeights);
+      if (score !== null) {
+        totalScore += score;
+        validPairs++;
+      }
+    }
+    if (validPairs > 0) {
+      globalScores.push({ code: base, score: totalScore });
+    }
+  }
+  // Sort global scores lowest to highest (most negative first)
+  globalScores.sort((a, b) => a.score - b.score || a.code.localeCompare(b.code));
+
+  app.addEventListener('click', event => {
+    const actionTarget = event.target.closest('[data-action]');
+    if (!actionTarget) return;
+
+    const action = actionTarget.dataset.action;
+    if (action === 'country') {
+      currentCountryCode = actionTarget.dataset.code;
+      currentFilterType = 'all';
+      customFilterSelection = [];
+      render();
+    }
+
+    if (action === 'back') {
+      currentCountryCode = null;
+      render();
+    }
+  });
+
+  app.addEventListener('change', event => {
+    if (event.target.id === 'filterSelect') {
+      currentFilterType = event.target.value;
+      render();
+    }
+
+    if (event.target.id === 'customCountrySelect') {
+      customFilterSelection = Array.from(event.target.selectedOptions).map(opt => opt.value);
+      render();
+    }
+  });
+
   function render() {
-    app.innerHTML = `
-      <p>${t(lang, 'originCount')}: <code>${origins.length}</code></p>
-      <p>${t(lang, 'lastChange')}: <code>${manifest.lastSourceDataChangedAt || t(lang, 'missingDate')}</code></p>
-      <h2>${t(lang, 'heading')}</h2>
+    if (!currentCountryCode) {
+      renderGlobal();
+    } else {
+      renderDetail();
+    }
+  }
+
+  function renderGlobal() {
+    let html = `
+      <div class="stats">
+        <span>${t(lang, 'originCount')}: <strong>${origins.length}</strong></span>
+        <span>${t(lang, 'lastChange')}: <strong>${manifest.lastSourceDataChangedAt || t(lang, 'missingDate')}</strong></span>
+      </div>
+      <h2>${t(lang, 'headingGlobal')}</h2>
+      <p style="font-size: 0.9rem; color: #666;">${t(lang, 'clickHint')}</p>
       <table>
-        <thead><tr><th>${t(lang, 'country')}</th><th>${t(lang, 'score')}</th></tr></thead>
+        <thead><tr><th>${t(lang, 'country')}</th><th>${t(lang, 'globalScore')}</th></tr></thead>
         <tbody>
-          ${scored.slice(0, 20).map(x => `<tr><td>${countryName(x.code, countries)} (${x.code})</td><td>${x.score}</td></tr>`).join('')}
+          ${globalScores.map(x => `
+            <tr class="clickable" data-action="country" data-code="${esc(x.code)}">
+              <td><strong>${esc(countryName(x.code, countries))}</strong> <span style="color: #888;">(${esc(x.code)})</span></td>
+              <td>${x.score > 0 ? '+' + x.score : x.score}</td>
+            </tr>
+          `).join('')}
         </tbody>
       </table>
     `;
+    app.innerHTML = html;
+  }
+
+  function renderDetail() {
+    const base = currentCountryCode;
+    const scored = [];
+    
+    for (const target of origins) {
+      if (target === base) continue;
+      const score = pairScore(base, target, status, scoreWeights);
+      if (score === null) continue;
+      
+      // Apply filters
+      const targetCountry = countries[target];
+      const isSchengen = targetCountry && targetCountry.isSchengen;
+      
+      if (currentFilterType === 'schengen_only' && !isSchengen) continue;
+      if (currentFilterType === 'schengen_except' && isSchengen) continue;
+      if (currentFilterType === 'custom_include' && !customFilterSelection.includes(target)) continue;
+      if (currentFilterType === 'custom_exclude' && customFilterSelection.length > 0 && customFilterSelection.includes(target)) continue;
+
+      scored.push({ code: target, score });
+    }
+    
+    // Sort lowest to highest (worst examples for this country first)
+    scored.sort((a, b) => a.score - b.score || a.code.localeCompare(b.code));
+
+    const showCustomSelect = (currentFilterType === 'custom_include' || currentFilterType === 'custom_exclude');
+
+    let html = `
+      <button class="nav-btn" data-action="back" type="button">${t(lang, 'backBtn')}</button>
+      
+      <h2>${esc(countryName(base, countries))} — ${t(lang, 'headingDetail')}</h2>
+      
+      <div class="filter-bar">
+        <label for="filterSelect">${t(lang, 'filterLabel')}</label>
+        <select id="filterSelect">
+          <option value="all" ${currentFilterType === 'all' ? 'selected' : ''}>${t(lang, 'filterAll')}</option>
+          <option value="schengen_only" ${currentFilterType === 'schengen_only' ? 'selected' : ''}>${t(lang, 'filterSchengen')}</option>
+          <option value="schengen_except" ${currentFilterType === 'schengen_except' ? 'selected' : ''}>${t(lang, 'filterNotSchengen')}</option>
+          <option value="custom_include" ${currentFilterType === 'custom_include' ? 'selected' : ''}>${t(lang, 'filterCustomInc')}</option>
+          <option value="custom_exclude" ${currentFilterType === 'custom_exclude' ? 'selected' : ''}>${t(lang, 'filterCustomExc')}</option>
+        </select>
+        
+        ${showCustomSelect ? `
+          <div class="filter-custom">
+            <label style="font-size: 0.85rem; color: #555;">${t(lang, 'customSelectHelp')}</label>
+            <select id="customCountrySelect" multiple>
+              ${origins.filter(c => c !== base).map(c => `
+                <option value="${c}" ${customFilterSelection.includes(c) ? 'selected' : ''}>
+                  ${esc(countryName(c, countries))} (${esc(c)})
+                </option>
+              `).join('')}
+            </select>
+          </div>
+        ` : ''}
+      </div>
+
+      <table>
+        <thead><tr><th>${t(lang, 'country')}</th><th>${t(lang, 'score')}</th></tr></thead>
+        <tbody>
+          ${scored.map(x => `
+            <tr>
+              <td>${esc(countryName(x.code, countries))} <span style="color: #888;">(${esc(x.code)})</span></td>
+              <td>${x.score > 0 ? '+' + x.score : x.score}</td>
+            </tr>
+          `).join('')}
+          ${scored.length === 0 ? `<tr><td colspan="2" style="text-align:center; color:#888; padding: 2rem;">${t(lang, 'noResults')}</td></tr>` : ''}
+        </tbody>
+      </table>
+    `;
+    app.innerHTML = html;
   }
 
   render();
 }
 
 main().catch(err => {
-  const lang = window.localStorage.getItem('reciprocity-language') === 'en' ? 'en' : 'tr';
-  document.getElementById('app').textContent = t(lang, 'errorPrefix') + err.message;
+  console.error(err);
+  // Unhandled errors that bypass our internal catch block
+  if (!document.getElementById('app').textContent.startsWith(t('tr', 'errorPrefix')) && 
+      !document.getElementById('app').textContent.startsWith(t('en', 'errorPrefix'))) {
+    const lang = window.localStorage.getItem('reciprocity-language') === 'en' ? 'en' : 'tr';
+    document.getElementById('app').textContent = t(lang, 'errorPrefix') + err.message;
+  }
 });

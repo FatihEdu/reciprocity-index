@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "EU": [],
+    "Schengen": [],
+    "G7": ["CA", "FR", "DE", "IT", "JP", "GB", "US"],
+    "G20": ["AR", "AU", "BR", "CA", "CN", "FR", "DE", "IN", "ID", "IT", "JP", "KR", "MX", "RU", "SA", "ZA", "TR", "GB", "US"],
+    "TurkicStates": ["AZ", "KZ", "KG", "TR", "UZ"],
+    "Balkans": ["AL", "BA", "BG", "GR", "XK", "ME", "MK", "RO", "RS", "SI", "HR"]
+  }
+}

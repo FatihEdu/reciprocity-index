@@ -1,0 +1,35 @@
+{
+  "defaultModel": "reciprocity-v1",
+  "models": {
+    "reciprocity-v1": {
+      "label": {
+        "tr": "Mütekabiliyet Skoru",
+        "en": "Reciprocity Score"
+      },
+      "description": {
+        "tr": "Sadece vize mütekabiliyetini ölçer.",
+        "en": "Measures visa reciprocity only."
+      },
+      "weights": {
+        "visa_free": 0,
+        "electronic_travel_authorisation": 0,
+        "visa_on_arrival": 1,
+        "visa_online": 1,
+        "visa_required": 2
+      }
+    },
+    "strict-v1": {
+      "label": {
+        "tr": "Sert Mütekabiliyet Skoru",
+        "en": "Strict Reciprocity Score"
+      },
+      "weights": {
+        "visa_free": 0,
+        "electronic_travel_authorisation": 0.5,
+        "visa_on_arrival": 1,
+        "visa_online": 1.5,
+        "visa_required": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+name: Fetch Henley Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-henley-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          path: main-src
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r main-src/requirements.txt
+
+      - name: Prepare data branch worktree
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          REPO_URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$REPO_URL" data > /dev/null 2>&1; then
+            git clone --depth 1 --branch data "$REPO_URL" data-worktree
+          else
+            mkdir data-worktree
+            cd data-worktree
+            git init
+            git checkout --orphan data
+            git remote add origin "$REPO_URL"
+          fi
+
+      - name: Fetch and normalize data
+        run: |
+          python main-src/automation/henley/src/fetch_henley.py \
+            --data-root data-worktree \
+            --config-root main-src/automation/henley/config \
+            --attempts 3 \
+            --sleep 0.5
+
+      - name: Validate data
+        run: python main-src/automation/henley/src/validate_data.py --data-root data-worktree
+
+      - name: Commit data branch if changed
+        id: commit_data
+        working-directory: data-worktree
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "data: update Henley visa data"
+          git push origin HEAD:data
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger publish
+        if: steps.commit_data.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run publish-site.yml --repo "$GITHUB_REPOSITORY" --ref main

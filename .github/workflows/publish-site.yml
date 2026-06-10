@@ -45,7 +45,12 @@ jobs:
         run: |
           set -euo pipefail
           REPO_URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git clone --depth 1 --branch data "$REPO_URL" data-worktree
+          if git ls-remote --exit-code --heads "$REPO_URL" data > /dev/null 2>&1; then
+            git clone --depth 1 --branch data "$REPO_URL" data-worktree
+          else
+            echo "data branch is missing; run Fetch Henley Data first." >&2
+            exit 1
+          fi
 
       - name: Build static site
         shell: bash

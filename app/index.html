@@ -5,19 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mütekabiliyet Endeksi</title>
   <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.45; }
-    .toolbar { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; margin: 1rem 0 1.5rem; }
-    .lang-switch button { border: 1px solid #bbb; background: #fff; padding: .45rem .75rem; border-radius: .5rem; cursor: pointer; }
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 2rem auto; max-width: 900px; line-height: 1.5; color: #222; }
+    h1 { margin-bottom: 0.5rem; }
+    p { margin-top: 0; color: #444; }
+    .toolbar { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; margin: 1.5rem 0; padding-bottom: 1.5rem; border-bottom: 1px solid #eee; }
+    .lang-switch button { border: 1px solid #bbb; background: #fff; padding: .45rem .85rem; border-radius: .5rem; cursor: pointer; font-size: 0.95rem; }
     .lang-switch button[aria-pressed="true"] { background: #111; color: #fff; border-color: #111; }
-    code { background: #eee; padding: .1rem .25rem; border-radius: .25rem; }
-    table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
-    th, td { border: 1px solid #ddd; padding: .4rem; text-align: left; }
+    code { background: #eee; padding: .15rem .3rem; border-radius: .25rem; font-size: 0.9em; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; font-size: 0.95rem; }
+    th, td { border-bottom: 1px solid #eee; padding: .6rem; text-align: left; }
+    th { border-bottom: 2px solid #ccc; font-weight: 600; color: #111; }
+    tr:hover td { background: #fafafa; }
+    tr.clickable { cursor: pointer; }
+    .nav-btn { display: inline-block; margin-bottom: 1rem; padding: 0.45rem 0.85rem; background: #f0f0f0; border: 1px solid #ccc; border-radius: 0.5rem; cursor: pointer; font-size: 0.95rem; }
+    .nav-btn:hover { background: #e4e4e4; }
+    .filter-bar { background: #f9f9f9; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1.5rem; border: 1px solid #eee; }
+    .filter-bar label { font-weight: 500; margin-right: 0.5rem; }
+    .filter-bar select { padding: 0.35rem 0.5rem; border-radius: 0.25rem; border: 1px solid #ccc; margin-right: 1rem; }
+    .filter-custom { margin-top: 1rem; }
+    .filter-custom select { width: 100%; height: 120px; padding: 0.5rem; margin-top: 0.5rem; }
+    .flex-row { display: flex; justify-content: space-between; align-items: center; }
+    .stats { display: flex; gap: 1.5rem; font-size: 0.9rem; color: #666; margin-bottom: 1rem; }
   </style>
 </head>
 <body>
-  <h1>Mütekabiliyet Endeksi</h1>
-  <p>Bir ülke senden vize istiyorsa, sen de ondan vize istiyor musun?</p>
-  <p><strong>Not:</strong> Buna daha ağır bir dille “Kapitülasyon Endeksi” de diyebiliriz.</p>
+  <h1 id="main-title">Mütekabiliyet Endeksi</h1>
+  <p id="main-desc">Bir ülke senden vize istiyorsa, sen de ondan vize istiyor musun?</p>
+  <p id="main-note"><strong>Not:</strong> Buna daha ağır bir dille “Kapitülasyon Endeksi” de diyebiliriz.</p>
 
   <div class="toolbar">
     <div class="lang-switch" aria-label="Language switch">

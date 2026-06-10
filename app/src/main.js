@@ -1,9 +1,9 @@
 const STATUS_WEIGHT = {
   visa_free: 0,
-  electronic_travel_authorisation: 0,
-  visa_on_arrival: 1,
-  visa_online: 1,
-  visa_required: 2,
+  electronic_travel_authorisation: 1,
+  visa_on_arrival: 3,
+  visa_online: 4,
+  visa_required: 10,
 };
 
 async function fetchText(path) {

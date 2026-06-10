@@ -1,0 +1,1002 @@
+{
+  "AD": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a8f6af53825f8ce62ffce3a0a929edab92d49ca18480dd69f319dbb31f135ab2",
+    "semanticSha256": "2b4f99a63ac1770722658fe74fbad9019d487512899f7013252d9df69f4ce1f5"
+  },
+  "AE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "f5d4234792ef798ce842e6c334b2880d24cb7dda9e8487a170403584b023fe7e",
+    "semanticSha256": "10d35603c310a914036a2571af80a5ece61d05194955897e6edcf25c4cdd08f4"
+  },
+  "AF": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ba0f6f55e5bd3680efbf320fb6e546e1802df3ca3f78599dabf7c0250d0742f0",
+    "semanticSha256": "75465bc161e676d7abbb413dc55965fc771117a7e126649e7ea129e59a606426"
+  },
+  "AG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d23d487bc67af01e38e26d513520e19c05a79cb3cd4dffaf047cc19b8135d9b0",
+    "semanticSha256": "e2c0bb5a7ab5f0979fca2e9a7555e4db9b8d61ea36657faf78534fca135801b1"
+  },
+  "AL": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "97c9e4a72aa0ed627f305dc98b8ed3475ed49a4453464199f0a769a6704c2ca9",
+    "semanticSha256": "019e84d73d8598ba139954fdc35c1f8954c02d2c88a8a95c683bf5e15c3e2718"
+  },
+  "AM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "566159a484451bcd09e7c8399506d6602f01a68393c5b29694e617a0e18d2d2d",
+    "semanticSha256": "5edac03423d4cc48dad10d12b0ee6f7af55e94d227a72eb3f483ad07a1414c12"
+  },
+  "AO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "3468024e6da84cb85cde3cfc418f164e416da49a43f0f95960d11b4eb5b61cac",
+    "semanticSha256": "10b1c33977d48cc4dab740ec3238214b53aae46aebe8cf314f828684030f81da"
+  },
+  "AR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "9a21870e27c85e99f75c941642c2844f59937ac526dfc2eae2d08be15c4556be",
+    "semanticSha256": "8e37e38e767cf704b0330b2d3ee6218cd122a3a06b0b5d45f4f27dacd1488c04"
+  },
+  "AT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c5618403149e30bc9784585da195da4759ea717969ce357ed6ec3a830ef1768c",
+    "semanticSha256": "f0bf790449516b77dedf4f8fbaec83ab8a9457683f5b4c28263c2bee2f6da711"
+  },
+  "AU": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "0213c9bd09eac39b09e8990f2bc354ce6c32fd5325ae036c53516969eb585745",
+    "semanticSha256": "8f4978deeba1b7f59a2e29b4511bc859054ab3f9de02c9fbc4bcca3d48a8e152"
+  },
+  "AZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "e6c1fbd663f45c4bba33b38124c4c7c09101d9e688e8763e483ec378b52c84f7",
+    "semanticSha256": "6e707078e5fbb7c497ee09ba14679e05edfb7324983a712912f349dd2b13e091"
+  },
+  "BA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "5b45259a063e2ea8809f9b992c68ecdfd4bf4a508a1544ad17216e5341af07be",
+    "semanticSha256": "1b25d1a2a3a2a1c674247a0e9547e1f490a5a80ccf8372c633f40d3981c2c48d"
+  },
+  "BB": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "b458026a8141534eb3008022d4d88b5350e78fbc9edd4c7d0b6e2aa6d5f6888e",
+    "semanticSha256": "e00e4a822397fba967c01a479f6d1ca8bb1dc6801c02b535e04feea50cef6ca5"
+  },
+  "BD": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "0e8350399c7c42f6520b940589ecb282ff3bca9eff5f187875aaca9f02a3d19b",
+    "semanticSha256": "5eb4bca45acbb8565c5ee4114cc1e32e38d246833ce138a2bee7f2a165b772a8"
+  },
+  "BE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "9bcb46059d41dfe3fe34febba7da546aa07e8ae4a795a2b561637413acf4c8af",
+    "semanticSha256": "c4629e599998594ee062990c7ba13fe2c9114ceaa766e6b46ab20ea4be34400f"
+  },
+  "BF": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "cec0eaaa427ace3ddb96d1ab71d466ffceed4842ed135c72aaf76a83a4b6591a",
+    "semanticSha256": "f85655e3a713e63d703feabf7ae06503b8bd51fa67852d2bcbbc87b7e19227f7"
+  },
+  "BG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ea43c79b4f5ad53dc01b31aa399904c013fe2f58392dc17a8a1f86d6292604ff",
+    "semanticSha256": "bc19c291e6c0bec1c0983d0bef63f70070dbf643452caee9c54c7e8ce1cad592"
+  },
+  "BH": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c4d7966a8e0400259da06f7df6204fb515d7692885314f62123ac2d273de8ebe",
+    "semanticSha256": "e6ceab96f375e57f26d524ebb06773c8ff8259e6bd3718f562b5e8219dd81015"
+  },
+  "BI": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "cbabc6af8e5fb2ea2a7b52864fc84b6ff5081f6992c7402efcc096c8cbe7133a",
+    "semanticSha256": "fabe73baa3b04aecdb5a9f3e8a0d451087174286e423e08a0d5dd7c24ad9ead7"
+  },
+  "BJ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "51d2176bb5236d3166c4a5c735cfe64dda5ff7de509589f8b9bc90daf4a429cd",
+    "semanticSha256": "bfa9c94f9631179a5671e77c2fcc6ef69f48b790568d6cd3e8c45f4ebad79a1c"
+  },
+  "BN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "37a43572d9084af46b2b6bd73176345d08b0208ce0b3e4359733e22a8bdbd352",
+    "semanticSha256": "4cfe30be4aaf0033f9c519f900567d160f0a6bd4f684efcc6abce1ada2bd2d58"
+  },
+  "BO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "cfca4ff86aebb7154988003e81c981c891b7f1685a1e70357740297b61d340b4",
+    "semanticSha256": "d485779dd0475d0b2c8119cd4ab0c16140278dc9a23dd411da1b3c73cc353b03"
+  },
+  "BR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "e4a161da8073f65015c65126920d338565771c53f632cb714dfa93b1597c1842",
+    "semanticSha256": "ac8aed7409585edd1f073ebf18c8f186e9b90137968d8b2bded1ae07a3f7cd0b"
+  },
+  "BS": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c85578370c6e80bde264bac7454d6bb24e88a9684e1d845e4310f9368055e561",
+    "semanticSha256": "fbcb596002c808e76e9ee71dc72bf4caaebc9383cd300622827ffc5f786efae4"
+  },
+  "BT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a01bfa38f83278a4ce86e976d1be50e88912188a5c376131f0be64a7b67eec09",
+    "semanticSha256": "f8e955d929b971e83d3b6c5ac33c6827b503f9165b600c91c3ad0a99bbb9b563"
+  },
+  "BW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "795b207ab637c471aa8f88b8a9e025158fa2a4d9e4a2f65ee438c907ce0862c1",
+    "semanticSha256": "76fea27d70f7d083e2cf9485df59dd44fa5aad61845a8661b9d03e0bad029778"
+  },
+  "BY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "798d4bc848b4296311bcb28f6d244b58056dd1295640f74b3f2901c721451aab",
+    "semanticSha256": "017350bcf4631809d978f76a23eeae1719d00d14ccaae66e197f577ecb1f67cd"
+  },
+  "BZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "b23486ff856ccf0bf6fa343bf114aa5d1a4fd7f8a8ca803dbfa4b6bf52abb4d2",
+    "semanticSha256": "5b888834d1bad0c2cfb85e5b3d8164aaa73ce5ba65d80ea8f7f40561d750bb45"
+  },
+  "CA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "5a0135787a83cca056b0229e073e854e1c35bc3dc0795507b6223996b45b7b4a",
+    "semanticSha256": "eb0fbca6e97c045fb47f2b1e03698e021622f868e3631efbf5201b68c425d856"
+  },
+  "CD": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "462509d98610650882d95838980e4d497c34e4714c76b7a40e24f4d8dc986761",
+    "semanticSha256": "98e11383e54a74131f6a9296444af38ccab7de43ed544c9c7dda6b430a4f7862"
+  },
+  "CF": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "69da00160edb513bb749e427456ecf49ed3cf83e9b3139e71c5de304e699c610",
+    "semanticSha256": "d25fbddd637bd14df6e098374b9416f95c146eafb50c09eddf87c133de23a6c7"
+  },
+  "CG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "8d4e8117927ce01f3ebdce330e0dfb4de4b9f04f17bf4cc53abbf7e91714261e",
+    "semanticSha256": "a957960bfa476ae4ca1123c8bcf78070503bd8f57baec66ed1e20d33f9323d16"
+  },
+  "CH": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "515c20d7b00bce1c591dd8f1ce6a74a5750e615a613890756c2b317d24eaa5a0",
+    "semanticSha256": "c01b83cf746d1254a024ffd0c996a33930bc15d34c835d71c5b58547f99f5e5a"
+  },
+  "CI": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "5361cd5a6b25a7482f4e2e2abed064982491bf852340187e5b67d2216d74869a",
+    "semanticSha256": "88309b52c573a33d582a13cf90f3ef66ac013344643e79ce2259860972ddc9c5"
+  },
+  "CL": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "99f179433fc4ad6d55d968fed91181fa0d2f86ef6ae9de8fb6b7f401a5202e54",
+    "semanticSha256": "63f7f7c708fd568be33bdd4422a0d8fec3af01b46ddc316cd045e4c263d333bb"
+  },
+  "CM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a96ce5d52d0822bdac8bd53f488d3f51c99b569288a3d53b7fb583a8e4998dd4",
+    "semanticSha256": "b72e3e3bf526b501a9539bd8647ec18f06d6624d44fdec724d37dd48a79555f6"
+  },
+  "CN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "10ce55718700af4ee4f386f1948cd828b43e10f4c511405933aeb45bfbe5e20c",
+    "semanticSha256": "a85fd193d504a09d09aa34b4af566dd203baf54b08a1a44f108746982a11af6c"
+  },
+  "CO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "6a0f7db0ba77b693ce69c1f4e8839d075fb7debfb54eb10ee05b1791a369a5bf",
+    "semanticSha256": "68f41536f358d74315a127eea9aa0e70db6fe389cb8dd502e414fbc205b04632"
+  },
+  "CR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ef4b3c9908a2eb604dd0f37ae7970d65546f64239b1ec19820e0518e0648d304",
+    "semanticSha256": "eff7bd84eb8984f30e52b4395a05dfa90e436b674b9a169bbc667c69c2d40040"
+  },
+  "CU": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "4070977e17501bdfecc798f96d7deda291021fb163bcd014436eb46cf495307d",
+    "semanticSha256": "50fd7f843122a4a44ef99076fde19c34414a2ce11753f0f65ca74bea617aaabc"
+  },
+  "CV": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "6382b877a63402eb113ccf3f3b40f093556cf78220d7048003489a7dbcdaf9a0",
+    "semanticSha256": "ac343a6701744eb9392e3e7a28f4aba0170b96af7af54185ab5150bd337abbdf"
+  },
+  "CY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c7c72620154b9fbd9bcfc97d9d1175fd44dd2b0fafd76f0fb7c1ca249a644695",
+    "semanticSha256": "32c699c2b55773e8223f7733d1a85ebd62558f060d4928d2c21986ad59a15300"
+  },
+  "CZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "b539707d67c0ff1456c0c1eb81dc3d67137ccadbde35c67c02e71b0e73ba3cdf",
+    "semanticSha256": "c6bad4e780d3e607bc24cb62c4333777b040e7ad6ad68aa0fc5b21af0c9c8e56"
+  },
+  "DE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "36abbf8199b0bbec431b698dccd9b9340b6912d52f3499a7813bf70387b3c8df",
+    "semanticSha256": "164cd4823952d71a93167ef19ba5578c87570497f3b4a38f53edd90f617cd092"
+  },
+  "DJ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "e9edd08965889f743f65e084de9f5e59493f073da00e30abd453a3e93da7205b",
+    "semanticSha256": "175532b2f2d7fda302a54075c190867451509838d1243b6b97b9a467b802aa5c"
+  },
+  "DK": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "34db4a20ff23a4ddfc1a1abaedc22a54fafb85885b14a42a9b15f922f92e747a",
+    "semanticSha256": "d5f443040645962fc92232740d77dd94523c09ba695665c79968bec5357ff1ab"
+  },
+  "DM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "8fcc9467b202c1d5a99adff3be727a186eec290ed88aee3e11aa3c1f04f9d2d7",
+    "semanticSha256": "7348c39cc6e87622c893661a1b8b8da9147c5a278f58005c2cd73c55061e0c49"
+  },
+  "DO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "eded306e57e179f8d03863dec7aef83f43a68e66e1c25630b88077cf9f1cc3cc",
+    "semanticSha256": "21b743b23fd6ade858599a6134b023b767936b68a678329302650f8747a66712"
+  },
+  "DZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "7e2f0cf9d0f26cf0f7d7110016c4876cb3a59090898d9a4e784654bb5d677ff1",
+    "semanticSha256": "af7d20cb33150ac4bfd05b44f6a66abccccf9d0207fa05140bc04afbe75c551f"
+  },
+  "EC": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a1676c6c62e018e7e56513762858201edc4a6b3e7a718e76eafd022191c2b18f",
+    "semanticSha256": "a21bc37fcb509151efea99b56f56b15a68b032d5c6319608234da9ada71353f0"
+  },
+  "EE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d9333aa38f210c073447a8e883dc55195cfb0ea32f53c580d7b2c665c0f97592",
+    "semanticSha256": "d32aae1c830193fad7f74bbf8c824ff711206f324bd8ff6660ab989dfcd7b557"
+  },
+  "EG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "afed9a21248e3e9a1a45d784421bdb06bbce746ee206e5e6402ba0f27df56a65",
+    "semanticSha256": "2419d4f4ebd7d51cfb0fa02840eff055882209001cb56caaf7a759a1a9e88adc"
+  },
+  "ER": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "f78923be4ffd189536dcdfbb5f4609cf9fa48d24d5432198d903eab42b6887d4",
+    "semanticSha256": "35472e813cc6278ddbb85b65e38813880a481e51f00d13bc8faac3fce8664052"
+  },
+  "ES": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ab712432ef379bcb662cc9916e70fbdbd287d656470a7d8b38e2e41f82c0536f",
+    "semanticSha256": "9bfe21b5be75b26eaa89e827d89c63539e333c306c11f7ac7fd9fa9a53cbb457"
+  },
+  "ET": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "1d18e0825ad2bc3b7abb368dc5b7f54dc496073e1665355bbecef4d2717732bf",
+    "semanticSha256": "3763b96244dfdae1a1daa31744f731039c799df28c4a586e4547872e2be5aa56"
+  },
+  "FI": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "08dd6afda8519157ff09a66399eefe47bb707ff941fe8d5288adab0fcfc86424",
+    "semanticSha256": "d0fe6f2d5799f59f6224615c2677554605ae626ca5ee54ed55e6ea475054c9ce"
+  },
+  "FJ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "f4b8c3958fd32fd1ee86147bd0c955d6b6208bfa5789039207af702b2efc6234",
+    "semanticSha256": "854acc20b96c9dffb006d724cebf85ace17c5a2c8413fe4ecc548f9fc49636a6"
+  },
+  "FM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "7c12ca42d4adf3e73768f93d0501eb92e6ddb8cee4f549ad0ea48d69eb37fd70",
+    "semanticSha256": "f0cd95e15c31826e22a7dea4c429c660abc58d762d50dfb339116e197f3109d6"
+  },
+  "FR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "661a7f423954dd1b97fe5932cdc1c39b982d66ae2a19fcb4a55fe1b6691689da",
+    "semanticSha256": "8aa74fa99c78d837c7eb33f31c7b21ce2da16daa9c7e4d45aa62fca7613840db"
+  },
+  "GA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "4cb2fece4f0dbe41109d80ad43c9ef3023b3c5eaa652bcd77423aa673fdb069c",
+    "semanticSha256": "7dd54c81472c6190727437c2aadac35d7058568bffd0bd412f57dfc15b67516a"
+  },
+  "GB": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "2a5ee1de7ac04a32b09b866843b5d6e1cdd2573f4750485f792385987d21cf93",
+    "semanticSha256": "95fd408c3d2d6e7ecddad6867107ed57c69fa8f42fff432a010d33639481d96c"
+  },
+  "GD": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "cc827e25f69555c88439da5ac89104b63c32146e4a2b9a22edb086f855725d5d",
+    "semanticSha256": "bc385bd8e8204d3c62ccadc5a16afa709955e49580f0830ceea3ad891bcdbade"
+  },
+  "GE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "5576b00c1d5868d4dedfe00fa39ecbe21d43fe4081b9fff04c96befd5d866637",
+    "semanticSha256": "0fec1244f2fb013527fc7028c7fe48faf5356a48900011d596de1e6198226cf3"
+  },
+  "GH": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c88c8bde8fd9bcad289eadf95118784bf97dcadff547e37abd0f65f15204c3df",
+    "semanticSha256": "07a85f28034268c8eb648d3adfe76fe7960442e54b63bc0090606167db63d326"
+  },
+  "GM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "84d5e01e6a454b8258d34cddcc0598abcd77fc8d531bcbbcae5e1ee20fa12fbc",
+    "semanticSha256": "57f2b0a25fa2489b4f1b30b506c2c286dd67a57d28729a7e4c1e59840aad6e66"
+  },
+  "GN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "6d0af08d1bae75925964002464343d574ebb3225ca651c60f8f837eb24df968a",
+    "semanticSha256": "7b14b4ba2b97eea5c80a0c8a20e0c678350e97277a3be4527355fef3f8db4f8d"
+  },
+  "GQ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "030ce4b085aa393d0645a3b7f9d80254c65e926bec1f4269e5121cf38e265e9c",
+    "semanticSha256": "7fc9c981f3a6da56a6d5f7c2e5482d7c512add6bb0c8e7ea40d4b741e0179c47"
+  },
+  "GR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "7dbf0cefa88bfa6de3dc8fd188c981a77070f3dd5a9c62bbb6134ff520e6c4e8",
+    "semanticSha256": "9b499d33d2eb81c6ff126bcc2bb7b51090b376141a789a9a5466b306be8fcad2"
+  },
+  "GT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "06e9583a0753d339409661107cfeab5df1bc80060c411a6a2b2384a0ecb01dd7",
+    "semanticSha256": "420a050626c2be57548a1c22b956bee6cfaa1ffa7911b9fa9e56ae98ed106d64"
+  },
+  "GW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a43d560453f73e98aba8ab53609589f382fcff626c2b6bd0b3b76c16ea8bd4f2",
+    "semanticSha256": "1f0cbe3b56a5a87490284d9b0936505fdc343a6e688527f98655d31f97fd7722"
+  },
+  "GY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "61d48f8b1e1b1febb0b7701412fa8e3049e317ab6387f2c9214fb614ac0e1b36",
+    "semanticSha256": "ec6648fbd18db1673e6d7f91c4e3c9f18b00254dc68c81a9d2e859539fe08c61"
+  },
+  "HK": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ec9c712d2a789bb0bf348949354a37b1530b70d5c4c152f4b9d1817344a4b861",
+    "semanticSha256": "bda0fd101c8a4cf5a20e322c79251f9249e66332ae379a48d263567d70c9b444"
+  },
+  "HN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "f25444b561132835016b717a31d4e000be0d6877d46e3f916914c35b44c9fff2",
+    "semanticSha256": "9681599d37e9dfe34a17457cd30990a86ad3e2b25404d3a01de9f853f323cb08"
+  },
+  "HR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d59bfe01adfbbc6548d69f759698beb7369d868310bc68df4010fb89bd92f28e",
+    "semanticSha256": "8f021ead11a2d09e88244e1c948da61d903352a798e6c4da28b13879244e1bcb"
+  },
+  "HT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "4d1c5c30bc50060c6fb89b217d623265d98489a638ea1b58d070c3f81c799d57",
+    "semanticSha256": "df76da1849fd57e6408ff6ae60ce4effd1d3c0761d23591d1eb3f2e305ec7eba"
+  },
+  "HU": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ed2089acb6cc33ba248520a7d79f82b92034d40b825e63ca479b707d81c4afe2",
+    "semanticSha256": "177f4ac389613aff558d8fb8732e72716932462ffcba22d1929c483e01d03ccb"
+  },
+  "ID": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "3331716725204c2c25cfb01ac253bc88e45421b38b2ca4f264a1cd428f3554b2",
+    "semanticSha256": "a7321554eb5d9307296d6b2bf37ff1a34d3f3d25c33c39a4cacdb3e6dbff49dd"
+  },
+  "IE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "cd34a0d4099cc5c75782a7f6f5ff10077328da0403aee6295733390e837fc7bd",
+    "semanticSha256": "f3a9cd52e8fa9e22d0d0bddca378c7c3ba51e39a64bb8eacfd3c669f10701f0c"
+  },
+  "IL": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "6fbd58268f952a12628a6b474e93ee3a967b1c4a6921bb5dc9ee3f5497743ec8",
+    "semanticSha256": "92f34edbb0679108c0d0fc6d4dcc23dfa978799f12777e2743abc5331c044d6b"
+  },
+  "IN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d4ea67851ff3819305244adee8fc2daddb9a5cb6a0ed3d5111c78228c7d8a9ad",
+    "semanticSha256": "4d4e993b90d92d353366fb4f155ff63c8cdc9cfb9c904ce20ce2f26055957277"
+  },
+  "IQ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "25999d60636f6cdc3ba08216191f18483065bfe92f7d6bc403d582ee05074da9",
+    "semanticSha256": "52988c4511dcea37bee10df753483fc80bb758490151eeba2f3af28b131f872f"
+  },
+  "IR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "6d0caa155bcd2f5f805d7beaaa34878fd016ae39432b1ee2d87c6a9b3c313707",
+    "semanticSha256": "c50fa1f54cc35b8e60076756cc26af99df24b17a3898516d7ea64258173d75d3"
+  },
+  "IS": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "f716197609278e3e096ea8b4b865e2e73763b10d262f2d34613f1254fce33984",
+    "semanticSha256": "a0c87456fd66ad8a5e4ff3f98b2c8fca63e42c81076ef56136850c189b0e0eaf"
+  },
+  "IT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "7c344ec2051dfe5a970149d70074a479693d9ce3ebb7d8cf5c273a4efbc4c98b",
+    "semanticSha256": "f3c3929e3dbf7a05ee842f9fe86d616c215466b20e8123f23f5499fd9be956da"
+  },
+  "JM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "72616e593286957a9e5cd0cb2dc7c532a9a3b44efd908e0717cfd250f963dbb4",
+    "semanticSha256": "ec13cf1ce546abf7beadbf338b2f170c36fe2f29a6f2f78a87b85a261b9656b9"
+  },
+  "JO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "42ab72c4ef2548644a2ad9eb0c86358285e22366984ea3928ba9fea0641379bc",
+    "semanticSha256": "58ee58f7cc417367f3a24c058791649f2811a43185a0a77bc1d778c5333f4bd6"
+  },
+  "JP": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "020abfa6d3ee4262eae4ae92cfa06332d9feac0fab5f27cbfd0d2bc6635abb83",
+    "semanticSha256": "10feddbf00966936dda70ed0dfeb73bf3347aa3f7525c24f95d904e98e08b9ff"
+  },
+  "KE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "1674540340cb0f991c1002841e926f39daca61682029fccc55c87be52e4f5627",
+    "semanticSha256": "435ce771bbc02b57c34dbc51493aa84012a10c0a58828d7cc88f85c11285f5eb"
+  },
+  "KG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "b1296945575ee9b0f400c0d072995f2d98c72b59cbc4c04ee05d6f9e1ff6ba96",
+    "semanticSha256": "75304f2e847f3d299284333479371ab596ae6b385873b3430d10c21736519ec2"
+  },
+  "KH": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d55c0ecce80fe7c3a0577c62407302b9e6c1b9625fd2caf62a490cb3b55a0a75",
+    "semanticSha256": "9d94f6bccdcae97c0b3163ec94f1f054302a18be82edeae72aac9c225cb752d9"
+  },
+  "KI": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "7d81b5c5a2c7ea966b5e89790f68f884a7b2c03c54b61b4caa98f5be2294f49a",
+    "semanticSha256": "6b9188fc1ac72af0a0dfd9365bd65b82b19ae9c5f7dd501b2115d7815eb7bfff"
+  },
+  "KM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "0141b14d5897db6485f9364967c17bee4ae25f805a42161783a5b9972213b7b2",
+    "semanticSha256": "102c3f1f9a7ef670e0dd98f5d04871837ac4f792f649fb0c75f6d5d6d86a7c28"
+  },
+  "KN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "529edc3ee68f1ff96e79cec3d3c985981aadc019fe46bc4f938e4a1fff789cab",
+    "semanticSha256": "5e7b38b08d8e2898d04eb87577d0d83a1ba901af8bd126b5b888fc9bc9ab3e56"
+  },
+  "KP": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "fa478c99356f48c639daa780c9316d0bd1168459c51aa693e90ab1e46a2cb209",
+    "semanticSha256": "fda3713509031dacfacf551414387233769d5b3b568461fe8f0f646c13074587"
+  },
+  "KR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "de5eabf754d4e23d38c2d4a2d7fa90cbe40ed1f911cf64ddcefe0072ee3e4efd",
+    "semanticSha256": "a761bdd4fbed33edb74eff8ee52b86dcde0807fefcfd5d6137533d04edec4193"
+  },
+  "KW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d630f1ac9df1b509c02c19b04751f8656eecd9432c5b5b28e10820a3613e6421",
+    "semanticSha256": "ac2d9a22625786f935346616777ef5b9bc3ceba365ba6f1edc532dd54358598b"
+  },
+  "KZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "4cc1516fb6fed283ce39e19f491b9ffd45110edb900cf59a56c613d20830e194",
+    "semanticSha256": "4c651da8f81d86171f8bc65aa545634d640a17381a90ac5fd8ac32a1f2213ec8"
+  },
+  "LA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "b12afe7a4cf967f5d042098a41b6cd5f2d514f0285da4ceb660b5db93290f5f4",
+    "semanticSha256": "cdbc609f163502bfd0580097b86da36facd4422b943f20b6a06a8f2a21398100"
+  },
+  "LB": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "21ebfb6084ea813bc9b7d5d6e7f425e4f8a8534edef25e5cb69b26814028bd99",
+    "semanticSha256": "da81485f7b7b5852ebb441692b74e5fa4e0679b358f6fb7e94d8fface5bdd9a1"
+  },
+  "LC": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "3223926a8115bbfbf6cec90a0c3b3701a8cac8df44a144454800dd4f8920696f",
+    "semanticSha256": "c8f8107a9ee9900ec4d6689945cdd02d1862e7ad105e34df7c387d3a291b1bbf"
+  },
+  "LI": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "50892e2ff41b904e74cdd3cd80d6dce7482d86a1c37370c0ef0eca5c2a718323",
+    "semanticSha256": "0aaa9170eba89753dea90f319161097781d742d11600fea8bdb7e2cb8ec72464"
+  },
+  "LK": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "3cd5f6660e8b0d3b2d0d51d997b00d23a0f4f530fbb7d051fd65f14e205500bb",
+    "semanticSha256": "b02f1b6ea30cb778ed2508120320a84dbc92270ec012de4c436c37e0ca4944db"
+  },
+  "LR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "801867d10e50ad1c30448579c0c5569ae3078ca52c6df3d4f00c2fc71ea9eec4",
+    "semanticSha256": "ac1418b32a885f72d85b947f91739ec8a79366a87fd9c8d4776be3cd1348de53"
+  },
+  "LS": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "caec1054fc159748e4688c419b177945315797a9c76d453f59ea3a978b6b0f9d",
+    "semanticSha256": "d04c430d4ef2730393e84647752ef598d4b0af4021e0d4b86ec03b9e36698b48"
+  },
+  "LT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a6c75ec0927002ae9506103133d3babb163d4dd24fec107f7ef7e4e1e0261120",
+    "semanticSha256": "dec45f3d31ef888d8fd6a3911cb029a93c041dcaade738b50e9f7f87962330a6"
+  },
+  "LU": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "391f17994d3f845c38acd44ba3d76b0be7cf784a11c1bcfb8a1120b170f52b16",
+    "semanticSha256": "f3950bd6f9a77da149fc7da943250eac077bbd78515a7c828a9a028261a0b1a4"
+  },
+  "LV": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "31d3ad37e64722956ddcfcd7040ada02d9ce08d7836f3c3670a8e777d978d3ab",
+    "semanticSha256": "a8e38b1270dfeb90726f6fef8112950867db4ce33a9c629b1e57a8633f4fa6af"
+  },
+  "LY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "2546e44c785ab60ecf63fe0c31163d4bc5058daef6db9c756e1319d322be2b82",
+    "semanticSha256": "358116ca3cc5054a19b6dbdc71467006c750f1af92e64b85a04f7171d41316d4"
+  },
+  "MA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "8ee0fb0dbde05e420c7ca8adeda6607f6de9c7a4df45e0323780fcd3983d957d",
+    "semanticSha256": "61095d0ac6ecfd88629bc8ccdd1239b173b05f5e26ee0748cd0f5ebd160ade1a"
+  },
+  "MC": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "556292bffec979ecd8441ff483424d9ad7adaa1272e8d3e207fba4ad14806bef",
+    "semanticSha256": "90d7ef7ba4cf894b8052bd28f453f2cbac335cc97acfc2b3faa1b7497466f581"
+  },
+  "MD": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "354e9e58c16ac43627e8f6f9c08d7067ff597869e81c3f56c5f1aa16e1ee9bad",
+    "semanticSha256": "0a285f1bf28a8ce74fd1f447ce4406177fc1dc918d0f1d980133b7a72da22314"
+  },
+  "ME": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d73da4df46b8a71fcf4584717ef15f9ee9470c97dec799a7fa9ccbb0e00ab273",
+    "semanticSha256": "b3b91dc24deffa1f1c2002e951670f9908ac2e5c276a3d1ec5e1c7207fc7a643"
+  },
+  "MG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c6329c3a97e62f23c89fea0638c8d92819f3544350d386622cfcba1dce5904ae",
+    "semanticSha256": "b1f9d5304f0f325363244a11d29a42c69b58215407750269a85fabaa9b3a05ab"
+  },
+  "MH": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "294ccd330fdd4ad7b58aee04ffd85a98a352a8bed3a499cdfb37d023fe3c3959",
+    "semanticSha256": "9d18a5630a160363ea5d740c7ceb7f6a45c538b8e0e853db670350e8e96986cb"
+  },
+  "MK": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "63dd6930785dfa482634764b777684b967be4be157a5ce9bb485e6181a4e2b94",
+    "semanticSha256": "69693ee0371ebb65c5ab5a8b73b5269244d6d4988faac43f83fb08a432153c07"
+  },
+  "ML": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "3fc3351b2f45c11921c3a3a617f48a8096b1fac7b65e4552406087ada9ebbf68",
+    "semanticSha256": "27487dc423b15f6bf8adf5ad95a4dda64255a9d66663a961d7a6a66deb3e5bef"
+  },
+  "MM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c012c893c8760e7cfb009887ebde9c4b324640bf2aae4f6994afc88fff2145cd",
+    "semanticSha256": "fe9f629c0296d79014718daf5f12361522b60a81168b45a350d9c138a2c0f78c"
+  },
+  "MN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "4fcbde16b0029ab919c79916ff16fc6dc2998e0f40d714f6fac7f4938fe3c2e2",
+    "semanticSha256": "aa870ba3334c76518f8cf37c922d8cc446af9776be3c06b87377a7378d401a5d"
+  },
+  "MO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "222ff6ab36c11c76b4933fb0b31f19b6b5df78c4f0ec15810486de0c34220eea",
+    "semanticSha256": "adf5cfaea8f68786c52e4ccb9aab6ccf8775d6542c5c1b29a5e256456bfa487f"
+  },
+  "MR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "09516dc8e2917965eb01d4440a059b30e92b51a4efa5a683961c066f79d7272f",
+    "semanticSha256": "77ca1242c5a304f4214455ba8f3f46f9e59c5dcfe8fbcc43c7ba12d6bc0fa0cc"
+  },
+  "MT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "211f74864991eaba73ffa9eb3b73e9d188486ec1db0432e5f3c4b89bcecd4386",
+    "semanticSha256": "78434363309844dfc233771a41b7052e5212de7e3c3507cb97f2a372b827925b"
+  },
+  "MU": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "10e669388aef3df6b05ccbaf2b500773742c36f41634adc15e333bbc1425a014",
+    "semanticSha256": "dc0a8f251f5cc6e84cc75c0ef6d7a519900b8d1ffdd90fe6c0e13bdad6e7263e"
+  },
+  "MV": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "924b2e377e2a69332f76875da3a158cde3ac61edd317debeb64a65bc1793d00a",
+    "semanticSha256": "529dd8323982be539049e483d1f1a36c8461f6c369038728bfa106108d513285"
+  },
+  "MW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "0b13ab5ac674185206e31b95aed6d690d9def4086c24b5a0b7b06a517dd2536b",
+    "semanticSha256": "2d52a81ca7393551860d72242cc43db0dab8dd60a9925b57926c005c1f79d441"
+  },
+  "MX": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a203b1b3860893814d1d0be9d78a576efe70f688081871195351c7738ecc198b",
+    "semanticSha256": "ba31709474e6279b55c9846760d382e1d1da36bf45769fa5ca8aa3c6cf09ee56"
+  },
+  "MY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a474cf14b688919ebcf843fcc7dde2f7517eaf669ce80f46f1a707d65a8242de",
+    "semanticSha256": "1dfd6ede8099d68168c0d851c10751a121e2ceaa301e0372585bd6d5ff9a26ce"
+  },
+  "MZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d39d7a5fc04772cddd7445fc074c6f19556dfaa28772057153a833559525b8f0",
+    "semanticSha256": "0f4bd220f8a0fc309baf1a3c99ff422a50edc6e0202939a766dbc98dd554fac9"
+  },
+  "NA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ecd92588b2f5b9c987f198e0ef37cfde985ec06550ecafddd7a886e592e41be5",
+    "semanticSha256": "ae6552ed8a44c44a7e9f49acba7e3080ce8119f728da5d6c64fd43ef071196cd"
+  },
+  "NE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "412193ba08dc3e4ffcde801cf38c35aa2266ef9b0693a57c3de1de6f0ff89c0e",
+    "semanticSha256": "086bea9592ccaaedae58f907b584e65dd9f677fe5d794114d28382faf800c97a"
+  },
+  "NG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "fa3394486625e07191ba19d11414c7965fedba3639f7026ae4c138490e41d6a4",
+    "semanticSha256": "6da7e0418e13b44527a53f09806f128d24b48d52153d77b6553834c194ff8892"
+  },
+  "NI": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "04150382a42e8a5e8da83332d6da9fa922efb0fcf9d88db0d69c760daad4b2b1",
+    "semanticSha256": "9a252e78a3d9adb8b7eeb1d4af3c40da0ecdc633628ae0ae62d1d123ec800825"
+  },
+  "NL": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d6af5e8cf2bde96016b5bf1a19bf7aa35f1c5aae664dc05bbbf81b60698400ee",
+    "semanticSha256": "650b9ef9da24d074b2094980e7366a84d27f9a9ad4243147f451f18f241f307f"
+  },
+  "NO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "fb7f3ce63b69afac28b6aabea1b32b3a31f2197017c9e1ba7e1697807408d55e",
+    "semanticSha256": "e806b4c0b0d44298e226a0ab8ef6d07ed18c6c598ee8208671034e822672f497"
+  },
+  "NP": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "1fc08cbc0c6339bcbcb9e65ea7848cf8b1ec6e28c485378e32dd35e2f6c00d9a",
+    "semanticSha256": "833eee84c84a1147af48a78475b994a473100b31a0a0fa1e61ac2b900a2aeb2e"
+  },
+  "NR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d50c7f84a1ee016153b2ce72decbd4f4977c9365659cf7ffcf1e29e44787553b",
+    "semanticSha256": "c636199d0ea05af41e4cca3eafcb91196b377bee2643a0460f524998d8fd1f28"
+  },
+  "NZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "5f3e65e5bbf26d0b9a032cf9d08a4dcb31b59f10ff07a18104d3a08061d271c2",
+    "semanticSha256": "c6639a86f74293c1b5610eda18db11f9e15b992099cf5cb036b894385cec7398"
+  },
+  "OM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "14579294145bce30d4d80a890dc109e707c7c6386fe8eb901197e64a857cf3ed",
+    "semanticSha256": "587e62ae281cef7e4ca94bc21844e6df6ef337fa24d1bd4ce6f67eece617276b"
+  },
+  "PA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ac4d2480eb28a4689280fcfb2df2fe922035ea1f123aff53f7db2c43923e35b0",
+    "semanticSha256": "4714c9fc280ae66928e3ef1cb9bdbe13f6910fe05224ada902742c4c44bd8169"
+  },
+  "PE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "177619ec29502c768e15075dbf5c0b0a41e6d3547a8a857694fdc9416e46992a",
+    "semanticSha256": "f3d46067053c4024041d82cad59373081b7289eea5b7da7ee0ad0ae72fa4e1a8"
+  },
+  "PG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "343b0949a2e33a58db8db5a41cfc33ca61ec1c2ca058fbec094fd25d58e63e97",
+    "semanticSha256": "ca392e1769a9eb1f56242d2921ad15c501b4c77a7e8c3fb41c2056c7be7fea5d"
+  },
+  "PH": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "af57556b11bcfdebc3b2edf83647d02346138d8820e3c511575981dff7983b92",
+    "semanticSha256": "63eb313924c2ead9b4000264c46ac7c6e721d5c80063fbe40933c1abb08224e9"
+  },
+  "PK": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "64d2332058f62458291934472e4197261357bbb914326c251ea7907772b50eda",
+    "semanticSha256": "c7281f0311b6b7dd3bcd281ba904c6c48541b3296d9d7439d5f3ef36a32500e4"
+  },
+  "PL": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "44a61c7d4e23f1e4bbb1aa3018997c9ff193b7ca52a7971f118d62b0305709ea",
+    "semanticSha256": "191a27c3757b27004bb21650daf0561155d6e4a723b9367495a99bd618ffbbd1"
+  },
+  "PS": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "90ee4aa5c76e918c2eee382064c2ce4dc5ec47e0737fad5126378887604824e4",
+    "semanticSha256": "8da6b76f7ac8b56ec2d83cdb44fa5f7ae9d9ae635a407d38596e44cb765cdf22"
+  },
+  "PT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "1d32efc5017a7ca6b62a06cdf7e86770ee19492f544fd5c09f183c4f53a4f690",
+    "semanticSha256": "623d5b2ae6dbe26e6fb69dc924bd46f77f567e70c32b69e949fdb6fdfdf02cc5"
+  },
+  "PW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c260603bb5c0a61aeab0139bc26baaa8e70bc9c4ba7a78390e4a4b81b0dd8417",
+    "semanticSha256": "75e993e231072691f8aabb0bb2bd36d339d6a55643f2c22d8589a10720bb2dba"
+  },
+  "PY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "db3e437db45fff8ba6b71e20b4f2787b92589f29dda47cef389c60f77f9d5b5d",
+    "semanticSha256": "376b5895b0adcb5e19821f2c58a14b401ed9943101d1e42082bb3fca6061fcc7"
+  },
+  "QA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "fee111ce9f0415c2969d2063296b60a37168e7136890827a30163d60534f867a",
+    "semanticSha256": "9985f6f1d424bd6c8d5d69bfbdb0ee5685ac5b20a261ebfea93a889d35685f0f"
+  },
+  "RO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ad7a6c4fb6b17a0ffa55bad6c2023341a83863e5714c9d94186236e96c259dfc",
+    "semanticSha256": "ece2b3b6fd4b7f53a7e34084c3b9cca85d03f89348a6a90421592166d983e174"
+  },
+  "RS": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "40f34939f5563773e8a4258cfbfaa5afb54852acaf974127ca25c92010e93b5f",
+    "semanticSha256": "a7a812396b258aa488fe5fea7ae4c4df6c736fbeeab577dc0fb9096f2e7b3e71"
+  },
+  "RU": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "1883f89efb1d34d26079cd601606221ee18734e177480326f3f103e82ed3f6d1",
+    "semanticSha256": "fed6889070bf44000aa203adfd1a8f7b068d32ad2e770d408e9d8d27632ba10b"
+  },
+  "RW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "fb782d54124adf6ee001bdd0fa694ccbe6827864c34c19159f7508c79531c9a5",
+    "semanticSha256": "2f3cd96bd06a281106b14a3e91f980ceabb1da4b61252b4d49baa60063ca3f9b"
+  },
+  "SA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "261c73a064d2a5618662a7b2062c425452abde550ffdce62c56023cf8ca202c2",
+    "semanticSha256": "0d4d0e4c7687de4154a7fa49a66899998f4b0104934e9551e62de33bc71c0f34"
+  },
+  "SB": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "577f305c10829db27ae1728741f79ff11d0711db342b20b621c1f1bae957e4b6",
+    "semanticSha256": "2dec7018dc47397db713500b6f7c61f4a0f19c7017bc6301e7cd4559c85e5142"
+  },
+  "SC": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "72c507b084427f648df122a37b6304e470c5ecca42f743821f1e8aa786f6e2ce",
+    "semanticSha256": "7cf1801f0f581b73f9fe12db4a2a7b272c2b8faa6eb76a5a063e81a1b71c74cc"
+  },
+  "SD": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "bf2828591595189987a11aa0033b7765395422e5d2439a00d5f5f0b107382db3",
+    "semanticSha256": "51165b4845402b76eadd19076fa32afd9b33818d9f69e8a6ab1eaa44cf5a4ad1"
+  },
+  "SE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "3b294559b41bbd2e305a129ba636b6edc69dfb808a98cb20857ded15e7bdea70",
+    "semanticSha256": "df19f08efb0d5726c41b8c7b5b87c260131ada4f1ab18fff69687ce12e14a2ad"
+  },
+  "SG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "be91582e2cb65520f3c58c6ec14d7ea58babe11376277b7169c4af1509d47282",
+    "semanticSha256": "5970a1791007db6e71d318f1d05973243cc50be136b1327ac9931b200fbbfcd2"
+  },
+  "SI": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "3314e0aa814913406985b804259aa1a14ea666c35a8b100718f6b4d3d7cd00ca",
+    "semanticSha256": "dab9f1fdf83e0e263cf09d5c9105105d5d6f7e65dc5d1587848de8374095140d"
+  },
+  "SK": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "27f57c99752f9ec304abc91a27d11049d2933bd5fe39929df01c026c46278497",
+    "semanticSha256": "1eb027495de9e23c0a29de1a04dd9913ac8d6229b3b374ee33b8db30137eeb4d"
+  },
+  "SL": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "d3e904c169eda7977155642189b623efe2eb9fae1caf5121aa23c558d4b6fd24",
+    "semanticSha256": "b7498fcc1afbee87d893e5c8e5597f050ab3a26960dfbebbb8c6603bb3a6ca94"
+  },
+  "SM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "8787588e8950ebbb4e61d1241e36a9c6d73d1e8647bb3b81b7b64f48bb0ff5c5",
+    "semanticSha256": "295fcbe9f166bd719536ff91f1ec09336f966daac1ac969f5ead7e3ce8fe51d7"
+  },
+  "SN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "4a732ced4c366e64e4335f1d7d3f12976a462ebd52fab1bdc765bbb93b8a3b44",
+    "semanticSha256": "786d5c59fba20b5625ff47e041df55c84a234dc05d831f6567ef9664c3e82316"
+  },
+  "SO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "040ed83cf99099f323b323c7beb6b28bd849b8b03dd9f7df90d81feb9f07d789",
+    "semanticSha256": "f98186f50919e7cbf5ee1cf11a81db19aa899a29d75f4c5712489489a6020b8a"
+  },
+  "SR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "389323e997821dc6a77ea435e2a3d40e83030b928550c80f10d8d3d6554fed86",
+    "semanticSha256": "652f25d3a60b6b6ef9c32ecf4346b13a6fe85006aee3fcbf12e8d5c480494187"
+  },
+  "SS": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "50815233d5752bfacf18e22052e672e089aa77e0756491334d390e3b42898b38",
+    "semanticSha256": "4456a6c905a1856cfb0877abc125f08650476a8e668c35561c595bb9636c6a21"
+  },
+  "ST": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "00e3ccda7bfdc7638ff8d2275572822d71450a0eb5d3a7a3d51bdc2b68214c3c",
+    "semanticSha256": "06ccdbddac68301e5ab7b3e555ebd20a51a6a10b51872dca7d5d172ca8b40b4f"
+  },
+  "SV": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "31828e482891f92958e43b2c083417baffd29d70f883c8e59b94635b228cc7c2",
+    "semanticSha256": "0989021b59763d3c95cd71b1c219be549a34ee19a4e4aea6089a20fb83400b4a"
+  },
+  "SY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "a47cd5e8dc2d61e58800b7d6c455ef16369337e368d6947c6d7058a3b011490e",
+    "semanticSha256": "301a64b2f27d4da9f32df601982250c6041711892cd5135114538a739890d520"
+  },
+  "SZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "9b9e4d2e260a367d15907a0917430010aa093f68b633d4a7a95f37e9bcfc6125",
+    "semanticSha256": "b96a5a8363a9bdb98e3804711fef6e96cfe72f883484a5c0430d2c8fbe183eba"
+  },
+  "TD": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "48700a481ff90f8dd6f7b202fe386c4efc6bbf840c3adcf9c0a2587ac3508e6f",
+    "semanticSha256": "f20179c3f1eb66b9cf6738cf5245d6ebb53ceac3f89e1bdf3d3778910e7ea6db"
+  },
+  "TG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "367edd1e9f972807ec1813cae348369bba08ff6a9026756e20bafbdd199eb129",
+    "semanticSha256": "43c0a9019a388c4b124e5eb0798c76243c952692f763845ff2bdac5c7bc2d3eb"
+  },
+  "TH": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "8ae76c09f2d354f819ee3df4a3ed0455bd5202c0dee0974498c6c70ad09a2052",
+    "semanticSha256": "08dfbfdbae83eae350a1a4ea21484bd45085f142455a0065d25f9d01e5440f94"
+  },
+  "TJ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "abe95f484cfe655a73cc578da152ed48f915e6a2e0cb16e04dca46f3364fae1d",
+    "semanticSha256": "e1dcd831542a1b454f7397963045298406c47bde039c581fdd2b8d89f1891126"
+  },
+  "TL": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "73eeb25df79a19364ceda4b27a54207ddd9a923fd92ff455573ef43df8b4b411",
+    "semanticSha256": "5310b7de40456f01bf68c71ebe48f947cb61ede35817e8b2d5b2dd568449ac20"
+  },
+  "TM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "57416fa45d03644d721aade0217aeb394a5db78843bd5db8bf1654679e94bf87",
+    "semanticSha256": "0907016e77ab4134501f64d0d6a63bad9a8157abc2c8458670260b73e8c19856"
+  },
+  "TN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "717b8bbb4ba12994dba34b9cd9c11a89664348d2e6771f3bcdb57d5c98b58c02",
+    "semanticSha256": "3cde1e1c3a1dab84b372d2679b9c762a29bc30ba5b0c586df4072f9f8fdda850"
+  },
+  "TO": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c3e53c9b4ca3ea1e86bcfa3e18826e08f23421c74bf4575d869267d82f08cd19",
+    "semanticSha256": "c6b69f074a97174dff13c11241061100c5cc649c0883e674a3a52514900d85f5"
+  },
+  "TR": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "e30970ebe75fb612567909b22e5f71b8e98f49aeac50af99b93e79c78cf668a1",
+    "semanticSha256": "f2617b00def7739b4a3d57f64f716dd00a6a9363790a25bdc51c41ded75b78b2"
+  },
+  "TT": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "c1931caf6177a72dc7bd19188b78bd7bed9b49f4a539ba6a37bffbaa873c439d",
+    "semanticSha256": "b80b5ef0098053422a015277f28f0cdb2ab86694a45b185c504d4598883b095d"
+  },
+  "TV": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "52e21dfde67900b833b931ab259d164159dd732ee3e0f8a0f9d7e3a2c12d4f2c",
+    "semanticSha256": "954f43a8836b4b9d3464734c12f2e8220f6bde732c6d23d64699b9ce41d964c5"
+  },
+  "TW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "9c0cf7c6c65ac37ef6f37cef4d6688d17b078d4df6d20e3ca0b986b4ccc45ec6",
+    "semanticSha256": "38fd9a4504bc122a3d03a6309f9e6ff018fe0a3e84a0b5d95a2062401c386b30"
+  },
+  "TZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ddab67bc12cb7cfc358d1222627642115fb0e66a438d2bae9335417065305bd4",
+    "semanticSha256": "ba2b42ad3c3ad42318c5ef1b389d411a239cc43cd4c8e7256b387156c009c978"
+  },
+  "UA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "902e78d448835d170cd4afe4db725f7ef4dc0e48231b37a6faa7d688bc62acfe",
+    "semanticSha256": "2a14f479989fe94a45df0af5e9db512041403b68772b79ec68ef1a3d80db34a9"
+  },
+  "UG": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "cd750ca0068a441a506abefde1b39b8a78211757a4a02bd4920498e90c7dc5d4",
+    "semanticSha256": "d75cc8d0fea70c251c7e3ca5bd78f4580dda4bc6d6d40a44bf947f06c5a9d39e"
+  },
+  "US": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "772ee4695f5004209e7e514c631dbcb37ff1d96b4471bc35a6bd433968596d48",
+    "semanticSha256": "eaba7b0860df109f1d5996ad927115bc22c47a56300dda3bdc741656182aea59"
+  },
+  "UY": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "0cae0416e1124d62819058809ef0cd2b8af6f5211c36baef7cabd198ddc34630",
+    "semanticSha256": "f03665b118254f6b2d9ac9cdaa747adb429f5ad2ae0618a6e51728b5d0636686"
+  },
+  "UZ": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "41afc2e119700c1d0c0e77498a93807719b97cbd822552e5ca09fd07cfd683b3",
+    "semanticSha256": "ae05067d0cffd54ade2464d29c54dc5e540a9a6bdef2d6d1712c3b804d1c2fb5"
+  },
+  "VA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "8eae268d43321699dee892266e17e0b6a70ea209343d459ea213be099c0e6c80",
+    "semanticSha256": "2f08bcff037192d06c5657eb436aeba5fd9dee1008b48e04c1fd30fa94ab1c49"
+  },
+  "VC": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "087c39b5439d253080cc0b91343b6366fe386dff4d76ac4e57255eefda124ede",
+    "semanticSha256": "d6480172f88bda852dbe1cfff25c20930ed99e5fc3c3253efc4aba3fde33fcf9"
+  },
+  "VE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "97accf2bb2f65cd67dea5f4290d5ad06ac55fdd4be999de7bd925984e2750e7b",
+    "semanticSha256": "f257f31b276c85eadf46b68d8a24af3fc2eb7450ba8ff5b6552df4d38cbe812a"
+  },
+  "VN": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "79d0979d11b1f25beffb1ca270873da32d05c81ec1766107bf1db2acce1175e7",
+    "semanticSha256": "004c360d72504ea730f540bb6b1fe64fff0cea2cfbe88483e6c5b98f84cef8b9"
+  },
+  "VU": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "46661fc7a6c039da2eace1d61418089fefd4b17c058476eb3592cdbf83bb348d",
+    "semanticSha256": "3715e388d982d8dcdb587f154bb41f197ac8cbdeaa10f1fb71b6699874f5dd4e"
+  },
+  "WS": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "735a2cf70a523b691882d5726f31a8a87c19f7dc9977ec48de3bbac033f3cc3e",
+    "semanticSha256": "7ca4447da3407d2ea577a18703b51d60d9f176526bc26bd57988e2ad3b4918fa"
+  },
+  "XK": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "47821c237ac50675934eadee3be624019da9cb5d3abe682415e98d14c1509644",
+    "semanticSha256": "6193dc3e66c5dd69ef20c328d6aa48c3d79eea59cd044cdbbe774b355c934246"
+  },
+  "YE": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "9d883a7dbc0ea83c5d9af96b0d83abc7338c157f741156bf235ca3725d1d07bd",
+    "semanticSha256": "5e5d4e28a78b94f760d85a6a093f09b5781dcc527f1ca1100eabacb56e6634f1"
+  },
+  "ZA": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "ca19b73747df2c1761e686296b123d6804e156da8ed779b562b36b74494a16b7",
+    "semanticSha256": "c261cf4b8a2678a9cc9412a0fdbf06dd2585910bca021a34f537e69db43b4208"
+  },
+  "ZM": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "53f84bbec65f0fa4a672ee2d2b283df71d4ec976dc6da9220abf18351636cf19",
+    "semanticSha256": "cbfe6380d988b8af14cee059ae623c7befb793af49a99b2e5ec97e3f4f2285cf"
+  },
+  "ZW": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "1648101b673b90c0bce142379432b781b4fa70110f80c267098f83074eada5c0",
+    "semanticSha256": "11b86fa1ff5ea33a03ebb6ab948c1f5c5fb568944b0371318f514579e7c45c54"
+  },
+  "__countries__": {
+    "lastChangedAt": "2026-06-10T21:24:44Z",
+    "rawSha256": "cdfed73bdffd5bcbafdec84c384fd585be9dd6733e4bb9d8a5140cdb7f6bc631",
+    "semanticSha256": "29e5dc8efe26cf5871b45b3bc6552564892636626986e6131b78141fb69d9b98"
+  }
+}

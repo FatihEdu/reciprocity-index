@@ -45,17 +45,16 @@ jobs:
         run: |
           set -euo pipefail
           REPO_URL="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          if git ls-remote --exit-code --heads "$REPO_URL" data > /dev/null 2>&1; then
+          status=0
+          git ls-remote --exit-code --heads "$REPO_URL" data > /dev/null 2>&1 || status=$?
+          if [ "$status" -eq 0 ]; then
             git clone --depth 1 --branch data "$REPO_URL" data-worktree
+          elif [ "$status" -eq 2 ]; then
+            echo "data branch is missing; publishing with empty dataset." >&2
+            mkdir -p data-worktree/latest
           else
-            status=$?
-            if [ "$status" -eq 2 ]; then
-              echo "data branch is missing; publishing with empty dataset." >&2
-              mkdir -p data-worktree/latest
-            else
-              echo "failed to check data branch (exit code: $status)." >&2
-              exit "$status"
-            fi
+            echo "failed to check data branch (exit code: $status)." >&2
+            exit "$status"
           fi
 
       - name: Build static site

@@ -239,6 +239,18 @@ def copy_config_to_latest(config_root: Path, data_root: Path) -> None:
             shutil.copyfile(src, dst)
 
 
+def config_files_changed(config_root: Path, data_root: Path) -> bool:
+    for name in ["score-models.json", "groups.json"]:
+        src = config_root / name
+        dst = data_root / "latest" / name
+        if src.exists():
+            if not dst.exists():
+                return True
+            if src.read_bytes() != dst.read_bytes():
+                return True
+    return False
+
+
 def run(args: argparse.Namespace) -> int:
     data_root: Path = args.data_root
     config_root: Path = args.config_root
@@ -254,6 +266,7 @@ def run(args: argparse.Namespace) -> int:
 
     hashes = load_json(hashes_path, {})
     latest_rows = read_latest_jsonl(latest_passports_path)
+    config_changed = config_files_changed(config_root, data_root)
 
     print("[fetch] countries")
     countries_raw_bytes, countries_payload = get_json_required(session, COUNTRIES_URL, args.attempts, args.sleep)
@@ -302,12 +315,13 @@ def run(args: argparse.Namespace) -> int:
         else:
             unchanged_origins.append(code)
 
-    if not countries_changed and not changed_origins:
+    if not countries_changed and not changed_origins and not config_changed:
         print(json.dumps({
             "status": "unchanged",
             "countries": len(countries_normalized),
             "origins": len(origin_codes),
             "changedOrigins": [],
+            "configChanged": False,
         }, ensure_ascii=False, indent=2))
         return 0
 
@@ -316,6 +330,7 @@ def run(args: argparse.Namespace) -> int:
             "status": "changed-dry-run",
             "countriesChanged": countries_changed,
             "changedOrigins": changed_origins,
+            "configChanged": config_changed,
         }, ensure_ascii=False, indent=2))
         return 0
 
@@ -370,6 +385,7 @@ def run(args: argparse.Namespace) -> int:
         "originCount": len(origin_codes),
         "destinationCount": 227,
         "countriesChanged": countries_changed,
+        "configChanged": config_changed,
         "changedOrigins": changed_origins,
         "statusEnums": sorted(set(CATEGORY_TO_ENUM.values())),
         "historyEventPath": history_path.as_posix() if changed_origins else None,
@@ -379,6 +395,7 @@ def run(args: argparse.Namespace) -> int:
     print(json.dumps({
         "status": "changed",
         "countriesChanged": countries_changed,
+        "configChanged": config_changed,
         "changedOrigins": changed_origins,
         "unchangedOrigins": len(unchanged_origins),
     }, ensure_ascii=False, indent=2))

@@ -98,7 +98,7 @@ def package_history(data_root: Path, out_root: Path) -> dict[str, Any]:
 
         monthly_index.append({
             "month": month,
-            "path": f"/data/history/{rel.as_posix()}",
+            "path": f"./data/history/{rel.as_posix()}",
             "format": "monthly-pack-v1",
             "compressed": True,
             "sizeBytes": size,
@@ -127,7 +127,7 @@ def package_history(data_root: Path, out_root: Path) -> dict[str, Any]:
         size = gzip_json(out_root / rel, pack)
         yearly_index.append({
             "year": year,
-            "path": f"/data/history/{rel.as_posix()}",
+            "path": f"./data/history/{rel.as_posix()}",
             "format": "yearly-pack-v1",
             "compressed": True,
             "sizeBytes": size,

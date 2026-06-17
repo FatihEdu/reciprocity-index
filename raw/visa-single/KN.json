@@ -265,10 +265,6 @@
       "name": "Iceland"
     },
     {
-      "code": "IE",
-      "name": "Ireland"
-    },
-    {
       "code": "IT",
       "name": "Italy"
     },
@@ -917,6 +913,10 @@
     {
       "code": "SZ",
       "name": "eSwatini"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland"
     }
   ]
 }

@@ -237,10 +237,6 @@
       "name": "Iceland"
     },
     {
-      "code": "IE",
-      "name": "Ireland"
-    },
-    {
       "code": "IT",
       "name": "Italy"
     },
@@ -917,6 +913,10 @@
     {
       "code": "GB",
       "name": "United Kingdom"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland"
     }
   ]
 }

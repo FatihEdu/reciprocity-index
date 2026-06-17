@@ -460,9 +460,9 @@
     "semanticSha256": "102c3f1f9a7ef670e0dd98f5d04871837ac4f792f649fb0c75f6d5d6d86a7c28"
   },
   "KN": {
-    "lastChangedAt": "2026-06-10T21:24:44Z",
-    "rawSha256": "529edc3ee68f1ff96e79cec3d3c985981aadc019fe46bc4f938e4a1fff789cab",
-    "semanticSha256": "5e7b38b08d8e2898d04eb87577d0d83a1ba901af8bd126b5b888fc9bc9ab3e56"
+    "lastChangedAt": "2026-06-17T10:06:49Z",
+    "rawSha256": "b0b571f8e48492d848e9dcd930954c9ad0d59f9f1653a5265aa47ba58e88e528",
+    "semanticSha256": "7137347c218e8c1e95911a6b58ab69e822b9b734e194f7bf366c186475061823"
   },
   "KP": {
     "lastChangedAt": "2026-06-10T21:24:44Z",
@@ -495,9 +495,9 @@
     "semanticSha256": "da81485f7b7b5852ebb441692b74e5fa4e0679b358f6fb7e94d8fface5bdd9a1"
   },
   "LC": {
-    "lastChangedAt": "2026-06-10T21:24:44Z",
-    "rawSha256": "3223926a8115bbfbf6cec90a0c3b3701a8cac8df44a144454800dd4f8920696f",
-    "semanticSha256": "c8f8107a9ee9900ec4d6689945cdd02d1862e7ad105e34df7c387d3a291b1bbf"
+    "lastChangedAt": "2026-06-17T10:06:49Z",
+    "rawSha256": "89f34739758b1dc2500da1f8bbd0dda36d404697ec909b54c2b7cbab2c92d6f8",
+    "semanticSha256": "af5f801dd977153f2340a2725e222025d8c030ba1765977490b34e3b3789c171"
   },
   "LI": {
     "lastChangedAt": "2026-06-10T21:24:44Z",
@@ -650,9 +650,9 @@
     "semanticSha256": "6da7e0418e13b44527a53f09806f128d24b48d52153d77b6553834c194ff8892"
   },
   "NI": {
-    "lastChangedAt": "2026-06-10T21:24:44Z",
-    "rawSha256": "04150382a42e8a5e8da83332d6da9fa922efb0fcf9d88db0d69c760daad4b2b1",
-    "semanticSha256": "9a252e78a3d9adb8b7eeb1d4af3c40da0ecdc633628ae0ae62d1d123ec800825"
+    "lastChangedAt": "2026-06-17T10:06:49Z",
+    "rawSha256": "619409dde9c6e36aab15cd3b94303ea7fa00a76e5807fdf39edc1916a477ad8b",
+    "semanticSha256": "ac8a82b1082cfa8c04256ea77a2e4c8a971c4fac97d89b2d1963b55f9e756177"
   },
   "NL": {
     "lastChangedAt": "2026-06-10T21:24:44Z",
@@ -995,8 +995,8 @@
     "semanticSha256": "11b86fa1ff5ea33a03ebb6ab948c1f5c5fb568944b0371318f514579e7c45c54"
   },
   "__countries__": {
-    "lastChangedAt": "2026-06-10T21:24:44Z",
-    "rawSha256": "cdfed73bdffd5bcbafdec84c384fd585be9dd6733e4bb9d8a5140cdb7f6bc631",
-    "semanticSha256": "29e5dc8efe26cf5871b45b3bc6552564892636626986e6131b78141fb69d9b98"
+    "lastChangedAt": "2026-06-17T10:06:49Z",
+    "rawSha256": "75c16bdb23f4eefecd26d2e6fbd4b615b5817b59d1b66985e892b27bc40465a2",
+    "semanticSha256": "9e370e8eb7650a7b81d49fb64b3d3e72034da57c5a6957ca66dbe57964eea203"
   }
 }

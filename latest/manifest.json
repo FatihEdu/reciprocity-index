@@ -1,11 +1,15 @@
 {
-  "changedOrigins": [],
-  "configChanged": true,
-  "countriesChanged": false,
+  "changedOrigins": [
+    "KN",
+    "LC",
+    "NI"
+  ],
+  "configChanged": false,
+  "countriesChanged": true,
   "countriesCount": 227,
   "destinationCount": 227,
-  "historyEventPath": null,
-  "lastSourceDataChangedAt": "2026-06-10T21:24:44Z",
+  "historyEventPath": "data-worktree/history/events/2026/06.jsonl",
+  "lastSourceDataChangedAt": "2026-06-17T10:06:49Z",
   "originCount": 199,
   "schemaVersion": 1,
   "source": "henley-passport-index",

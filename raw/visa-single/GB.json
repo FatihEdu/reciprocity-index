@@ -57,28 +57,16 @@
     {
       "code": "PS",
       "name": "Palestinian Territory"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia"
     }
   ],
   "visa_free_access": [
     {
       "code": "AL",
       "name": "Albania"
-    },
-    {
-      "code": "GI",
-      "name": "Gibraltar"
-    },
-    {
-      "code": "JP",
-      "name": "Japan"
-    },
-    {
-      "code": "KR",
-      "name": "South Korea"
-    },
-    {
-      "code": "TW",
-      "name": "Taiwan (Chinese Taipei)"
     },
     {
       "code": "AD",
@@ -269,6 +257,10 @@
       "name": "Germany"
     },
     {
+      "code": "GI",
+      "name": "Gibraltar"
+    },
+    {
       "code": "GR",
       "name": "Greece"
     },
@@ -319,6 +311,10 @@
     {
       "code": "JM",
       "name": "Jamaica"
+    },
+    {
+      "code": "JP",
+      "name": "Japan"
     },
     {
       "code": "KZ",
@@ -501,6 +497,10 @@
       "name": "South Africa"
     },
     {
+      "code": "KR",
+      "name": "South Korea"
+    },
+    {
       "code": "ES",
       "name": "Spain"
     },
@@ -527,6 +527,10 @@
     {
       "code": "CH",
       "name": "Switzerland"
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan (Chinese Taipei)"
     },
     {
       "code": "TH",
@@ -611,32 +615,12 @@
   ],
   "visa_on_arrival": [
     {
-      "code": "BD",
-      "name": "Bangladesh"
-    },
-    {
-      "code": "ET",
-      "name": "Ethiopia"
-    },
-    {
-      "code": "MG",
-      "name": "Madagascar"
-    },
-    {
-      "code": "MW",
-      "name": "Malawi"
-    },
-    {
-      "code": "PG",
-      "name": "Papua New Guinea"
-    },
-    {
       "code": "BH",
       "name": "Bahrain"
     },
     {
-      "code": "BI",
-      "name": "Burundi"
+      "code": "BD",
+      "name": "Bangladesh"
     },
     {
       "code": "KH",
@@ -649,6 +633,10 @@
     {
       "code": "EG",
       "name": "Egypt"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia"
     },
     {
       "code": "GW",
@@ -671,6 +659,14 @@
       "name": "Lebanon"
     },
     {
+      "code": "MG",
+      "name": "Madagascar"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi"
+    },
+    {
       "code": "MV",
       "name": "Maldives"
     },
@@ -683,12 +679,12 @@
       "name": "Palau Islands"
     },
     {
-      "code": "WS",
-      "name": "Samoa"
+      "code": "PG",
+      "name": "Papua New Guinea"
     },
     {
-      "code": "SA",
-      "name": "Saudi Arabia"
+      "code": "WS",
+      "name": "Samoa"
     },
     {
       "code": "SL",
@@ -723,6 +719,10 @@
       "name": "Zimbabwe"
     },
     {
+      "code": "BI",
+      "name": "Burundi"
+    },
+    {
       "code": "ID",
       "name": "Indonesia"
     },
@@ -745,14 +745,6 @@
   ],
   "visa_online": [
     {
-      "code": "MM",
-      "name": "Myanmar"
-    },
-    {
-      "code": "PK",
-      "name": "Pakistan"
-    },
-    {
       "code": "AZ",
       "name": "Azerbaijan"
     },
@@ -763,6 +755,14 @@
     {
       "code": "IN",
       "name": "India"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan"
     },
     {
       "code": "UG",
@@ -839,13 +839,13 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
-    {
-      "code": "GB",
-      "name": "United Kingdom"
-    },
     {
       "code": "AF",
       "name": "Afghanistan"
@@ -879,10 +879,6 @@
       "name": "Liberia"
     },
     {
-      "code": "LY",
-      "name": "Libya"
-    },
-    {
       "code": "ML",
       "name": "Mali"
     },
@@ -909,6 +905,10 @@
     {
       "code": "TM",
       "name": "Turkmenistan"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom"
     },
     {
       "code": "YE",

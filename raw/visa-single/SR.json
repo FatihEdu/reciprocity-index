@@ -207,6 +207,10 @@
   ],
   "visa_on_arrival": [
     {
+      "code": "KH",
+      "name": "Cambodia"
+    },
+    {
       "code": "MG",
       "name": "Madagascar"
     },
@@ -221,14 +225,6 @@
     {
       "code": "BI",
       "name": "Burundi"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -479,6 +475,10 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -487,8 +487,16 @@
       "name": "Bangladesh"
     },
     {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
+    {
       "code": "GI",
       "name": "Gibraltar"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland"
     },
     {
       "code": "TW",
@@ -517,10 +525,6 @@
     {
       "code": "BE",
       "name": "Belgium"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BN",
@@ -651,10 +655,6 @@
       "name": "Iraq"
     },
     {
-      "code": "IE",
-      "name": "Ireland"
-    },
-    {
       "code": "IT",
       "name": "Italy"
     },
@@ -673,10 +673,6 @@
     {
       "code": "LB",
       "name": "Lebanon"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",
@@ -917,6 +913,10 @@
     {
       "code": "GM",
       "name": "The Gambia"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
     }
   ]
 }

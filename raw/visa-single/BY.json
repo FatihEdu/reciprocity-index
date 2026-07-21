@@ -29,14 +29,6 @@
   ],
   "visa_free_access": [
     {
-      "code": "RU",
-      "name": "Russian Federation"
-    },
-    {
-      "code": "OM",
-      "name": "Oman"
-    },
-    {
       "code": "AG",
       "name": "Antigua and Barbuda"
     },
@@ -137,6 +129,10 @@
       "name": "Peru"
     },
     {
+      "code": "RU",
+      "name": "Russian Federation"
+    },
+    {
       "code": "RS",
       "name": "Serbia"
     },
@@ -177,6 +173,10 @@
       "name": "Vietnam"
     },
     {
+      "code": "OM",
+      "name": "Oman"
+    },
+    {
       "code": "SR",
       "name": "Suriname"
     },
@@ -191,28 +191,16 @@
     {
       "code": "CO",
       "name": "Colombia"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar"
     }
   ],
   "visa_on_arrival": [
     {
-      "code": "MG",
-      "name": "Madagascar"
-    },
-    {
-      "code": "MW",
-      "name": "Malawi"
-    },
-    {
-      "code": "BI",
-      "name": "Burundi"
-    },
-    {
       "code": "KH",
       "name": "Cambodia"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -237,6 +225,14 @@
     {
       "code": "LB",
       "name": "Lebanon"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi"
     },
     {
       "code": "MV",
@@ -291,6 +287,10 @@
       "name": "Zimbabwe"
     },
     {
+      "code": "BI",
+      "name": "Burundi"
+    },
+    {
       "code": "ID",
       "name": "Indonesia"
     },
@@ -331,10 +331,6 @@
     {
       "code": "MS",
       "name": "Montserrat"
-    },
-    {
-      "code": "MM",
-      "name": "Myanmar"
     },
     {
       "code": "PK",
@@ -455,21 +451,13 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
-    {
-      "code": "GI",
-      "name": "Gibraltar"
-    },
-    {
-      "code": "TW",
-      "name": "Taiwan (Chinese Taipei)"
-    },
-    {
-      "code": "BD",
-      "name": "Bangladesh"
-    },
     {
       "code": "AF",
       "name": "Afghanistan"
@@ -627,6 +615,10 @@
       "name": "Germany"
     },
     {
+      "code": "GI",
+      "name": "Gibraltar"
+    },
+    {
       "code": "GR",
       "name": "Greece"
     },
@@ -685,10 +677,6 @@
     {
       "code": "LV",
       "name": "Latvia"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",
@@ -855,6 +843,10 @@
       "name": "Switzerland"
     },
     {
+      "code": "TW",
+      "name": "Taiwan (Chinese Taipei)"
+    },
+    {
       "code": "TO",
       "name": "Tonga"
     },
@@ -899,6 +891,10 @@
       "name": "Yemen"
     },
     {
+      "code": "BD",
+      "name": "Bangladesh"
+    },
+    {
       "code": "AU",
       "name": "Australia"
     },
@@ -917,6 +913,10 @@
     {
       "code": "GM",
       "name": "The Gambia"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
     }
   ]
 }

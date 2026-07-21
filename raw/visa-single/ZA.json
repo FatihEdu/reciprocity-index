@@ -303,6 +303,14 @@
   ],
   "visa_on_arrival": [
     {
+      "code": "KH",
+      "name": "Cambodia"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
+    },
+    {
       "code": "MG",
       "name": "Madagascar"
     },
@@ -313,14 +321,6 @@
     {
       "code": "BI",
       "name": "Burundi"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -413,12 +413,12 @@
   ],
   "visa_online": [
     {
-      "code": "PK",
-      "name": "Pakistan"
-    },
-    {
       "code": "AZ",
       "name": "Azerbaijan"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan"
     },
     {
       "code": "BH",
@@ -539,9 +539,17 @@
     {
       "code": "GB",
       "name": "United Kingdom"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
     {
       "code": "GI",
       "name": "Gibraltar"
@@ -589,10 +597,6 @@
     {
       "code": "BQ",
       "name": "Bonaire; St. Eustatius and Saba"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BN",
@@ -721,10 +725,6 @@
     {
       "code": "LR",
       "name": "Liberia"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",

@@ -37,6 +37,10 @@
   ],
   "visa_free_access": [
     {
+      "code": "IE",
+      "name": "Ireland"
+    },
+    {
       "code": "AG",
       "name": "Antigua and Barbuda"
     },
@@ -127,10 +131,6 @@
     {
       "code": "HK",
       "name": "Hong Kong (SAR China)"
-    },
-    {
-      "code": "IE",
-      "name": "Ireland"
     },
     {
       "code": "JM",
@@ -263,6 +263,10 @@
       "name": "Bangladesh"
     },
     {
+      "code": "KH",
+      "name": "Cambodia"
+    },
+    {
       "code": "MG",
       "name": "Madagascar"
     },
@@ -277,14 +281,6 @@
     {
       "code": "BI",
       "name": "Burundi"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -519,9 +515,17 @@
     {
       "code": "NI",
       "name": "Nicaragua"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
     {
       "code": "GI",
       "name": "Gibraltar"
@@ -553,10 +557,6 @@
     {
       "code": "BE",
       "name": "Belgium"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BN",
@@ -697,10 +697,6 @@
     {
       "code": "LB",
       "name": "Lebanon"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",
@@ -917,6 +913,10 @@
     {
       "code": "KW",
       "name": "Kuwait"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
     }
   ]
 }

@@ -79,10 +79,6 @@
       "name": "Cambodia"
     },
     {
-      "code": "CV",
-      "name": "Cape Verde Islands"
-    },
-    {
       "code": "KM",
       "name": "Comoro Islands"
     },
@@ -351,6 +347,10 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -635,10 +635,6 @@
       "name": "Latvia"
     },
     {
-      "code": "LY",
-      "name": "Libya"
-    },
-    {
       "code": "LI",
       "name": "Liechtenstein"
     },
@@ -917,6 +913,10 @@
     {
       "code": "NP",
       "name": "Nepal"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
     }
   ]
 }

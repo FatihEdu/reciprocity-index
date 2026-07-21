@@ -49,6 +49,10 @@
       "name": "Albania"
     },
     {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
+    {
       "code": "GI",
       "name": "Gibraltar"
     },
@@ -111,10 +115,6 @@
     {
       "code": "BQ",
       "name": "Bonaire; St. Eustatius and Saba"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BW",
@@ -499,20 +499,20 @@
   ],
   "visa_on_arrival": [
     {
-      "code": "MG",
-      "name": "Madagascar"
-    },
-    {
-      "code": "BI",
-      "name": "Burundi"
-    },
-    {
       "code": "KH",
       "name": "Cambodia"
     },
     {
       "code": "CV",
       "name": "Cape Verde Islands"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi"
     },
     {
       "code": "KM",
@@ -601,12 +601,12 @@
   ],
   "visa_online": [
     {
-      "code": "TW",
-      "name": "Taiwan (Chinese Taipei)"
-    },
-    {
       "code": "AZ",
       "name": "Azerbaijan"
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan (Chinese Taipei)"
     },
     {
       "code": "BH",
@@ -727,9 +727,17 @@
     {
       "code": "NI",
       "name": "Nicaragua"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
+    {
+      "code": "IE",
+      "name": "Ireland"
+    },
     {
       "code": "AF",
       "name": "Afghanistan"
@@ -807,16 +815,8 @@
       "name": "Iraq"
     },
     {
-      "code": "IE",
-      "name": "Ireland"
-    },
-    {
       "code": "LB",
       "name": "Lebanon"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "ML",

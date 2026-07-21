@@ -33,6 +33,14 @@
       "name": "Albania"
     },
     {
+      "code": "AZ",
+      "name": "Azerbaijan"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
+    {
       "code": "ID",
       "name": "Indonesia"
     },
@@ -53,10 +61,6 @@
       "name": "Argentina"
     },
     {
-      "code": "AZ",
-      "name": "Azerbaijan"
-    },
-    {
       "code": "BS",
       "name": "The Bahamas"
     },
@@ -75,10 +79,6 @@
     {
       "code": "BO",
       "name": "Bolivia"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BW",
@@ -327,6 +327,10 @@
       "name": "Bangladesh"
     },
     {
+      "code": "KH",
+      "name": "Cambodia"
+    },
+    {
       "code": "MG",
       "name": "Madagascar"
     },
@@ -345,14 +349,6 @@
     {
       "code": "BI",
       "name": "Burundi"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -579,6 +575,10 @@
       "name": "Gibraltar"
     },
     {
+      "code": "IE",
+      "name": "Ireland"
+    },
+    {
       "code": "AF",
       "name": "Afghanistan"
     },
@@ -733,10 +733,6 @@
     {
       "code": "IQ",
       "name": "Iraq"
-    },
-    {
-      "code": "IE",
-      "name": "Ireland"
     },
     {
       "code": "IL",
@@ -917,6 +913,10 @@
     {
       "code": "TJ",
       "name": "Tajikistan"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
     }
   ]
 }

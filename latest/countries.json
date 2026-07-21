@@ -277,12 +277,12 @@
         "visa_free_count": 26
       },
       "2026": {
-        "rank": 103,
-        "visa_free_count": 23
+        "rank": 104,
+        "visa_free_count": 22
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 23
+    "visaFreeCount": 22
   },
   "AG": {
     "code": "AG",
@@ -372,7 +372,7 @@
         "visa_free_count": 153
       },
       "2026": {
-        "rank": 25,
+        "rank": 24,
         "visa_free_count": 154
       }
     },
@@ -573,11 +573,11 @@
       },
       "2026": {
         "rank": 73,
-        "visa_free_count": 65
+        "visa_free_count": 64
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 65
+    "visaFreeCount": 64
   },
   "AO": {
     "code": "AO",
@@ -1068,11 +1068,11 @@
       },
       "2026": {
         "rank": 70,
-        "visa_free_count": 68
+        "visa_free_count": 67
       }
     },
     "region": "EUROPE",
-    "visaFreeCount": 68
+    "visaFreeCount": 67
   },
   "BA": {
     "code": "BA",
@@ -1257,7 +1257,7 @@
         "visa_free_count": 165
       },
       "2026": {
-        "rank": 20,
+        "rank": 19,
         "visa_free_count": 163
       }
     },
@@ -1352,12 +1352,12 @@
         "visa_free_count": 40
       },
       "2026": {
-        "rank": 96,
-        "visa_free_count": 36
+        "rank": 97,
+        "visa_free_count": 35
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 36
+    "visaFreeCount": 35
   },
   "BE": {
     "code": "BE",
@@ -1732,7 +1732,7 @@
         "visa_free_count": 87
       },
       "2026": {
-        "rank": 56,
+        "rank": 55,
         "visa_free_count": 88
       }
     },
@@ -1827,12 +1827,12 @@
         "visa_free_count": 50
       },
       "2026": {
-        "rank": 86,
-        "visa_free_count": 49
+        "rank": 87,
+        "visa_free_count": 48
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 49
+    "visaFreeCount": 48
   },
   "BJ": {
     "code": "BJ",
@@ -1922,7 +1922,7 @@
         "visa_free_count": 68
       },
       "2026": {
-        "rank": 73,
+        "rank": 72,
         "visa_free_count": 65
       }
     },
@@ -2028,11 +2028,11 @@
       },
       "2026": {
         "rank": 19,
-        "visa_free_count": 164
+        "visa_free_count": 163
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 164
+    "visaFreeCount": 163
   },
   "BO": {
     "code": "BO",
@@ -2122,12 +2122,12 @@
         "visa_free_count": 79
       },
       "2026": {
-        "rank": 61,
-        "visa_free_count": 78
+        "rank": 63,
+        "visa_free_count": 77
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 78
+    "visaFreeCount": 77
   },
   "BQ": {
     "code": "BQ",
@@ -2322,7 +2322,7 @@
         "visa_free_count": 161
       },
       "2026": {
-        "rank": 21,
+        "rank": 20,
         "visa_free_count": 158
       }
     },
@@ -2417,12 +2417,12 @@
         "visa_free_count": 52
       },
       "2026": {
-        "rank": 87,
-        "visa_free_count": 48
+        "rank": 88,
+        "visa_free_count": 47
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 48
+    "visaFreeCount": 47
   },
   "BW": {
     "code": "BW",
@@ -2512,12 +2512,12 @@
         "visa_free_count": 88
       },
       "2026": {
-        "rank": 60,
-        "visa_free_count": 82
+        "rank": 61,
+        "visa_free_count": 81
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 82
+    "visaFreeCount": 81
   },
   "BY": {
     "code": "BY",
@@ -2607,7 +2607,7 @@
         "visa_free_count": 81
       },
       "2026": {
-        "rank": 61,
+        "rank": 62,
         "visa_free_count": 78
       }
     },
@@ -2702,7 +2702,7 @@
         "visa_free_count": 103
       },
       "2026": {
-        "rank": 51,
+        "rank": 50,
         "visa_free_count": 100
       }
     },
@@ -2884,12 +2884,12 @@
         "visa_free_count": 46
       },
       "2026": {
-        "rank": 89,
-        "visa_free_count": 45
+        "rank": 90,
+        "visa_free_count": 44
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 45
+    "visaFreeCount": 44
   },
   "CF": {
     "code": "CF",
@@ -2979,12 +2979,12 @@
         "visa_free_count": 53
       },
       "2026": {
-        "rank": 86,
-        "visa_free_count": 49
+        "rank": 87,
+        "visa_free_count": 48
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 49
+    "visaFreeCount": 48
   },
   "CG": {
     "code": "CG",
@@ -3074,12 +3074,12 @@
         "visa_free_count": 50
       },
       "2026": {
-        "rank": 87,
-        "visa_free_count": 48
+        "rank": 88,
+        "visa_free_count": 47
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 48
+    "visaFreeCount": 47
   },
   "CH": {
     "code": "CH",
@@ -3369,12 +3369,12 @@
         "visa_free_count": 176
       },
       "2026": {
-        "rank": 13,
-        "visa_free_count": 175
+        "rank": 14,
+        "visa_free_count": 174
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 175
+    "visaFreeCount": 174
   },
   "CM": {
     "code": "CM",
@@ -3464,12 +3464,12 @@
         "visa_free_count": 50
       },
       "2026": {
-        "rank": 86,
-        "visa_free_count": 49
+        "rank": 87,
+        "visa_free_count": 48
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 49
+    "visaFreeCount": 48
   },
   "CN": {
     "code": "CN",
@@ -3559,7 +3559,7 @@
         "visa_free_count": 85
       },
       "2026": {
-        "rank": 59,
+        "rank": 60,
         "visa_free_count": 83
       }
     },
@@ -3654,12 +3654,12 @@
         "visa_free_count": 134
       },
       "2026": {
-        "rank": 37,
-        "visa_free_count": 131
+        "rank": 38,
+        "visa_free_count": 130
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 131
+    "visaFreeCount": 130
   },
   "CR": {
     "code": "CR",
@@ -3749,12 +3749,12 @@
         "visa_free_count": 151
       },
       "2026": {
-        "rank": 27,
-        "visa_free_count": 149
+        "rank": 26,
+        "visa_free_count": 148
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 149
+    "visaFreeCount": 148
   },
   "CU": {
     "code": "CU",
@@ -3931,7 +3931,7 @@
         "visa_free_count": 68
       },
       "2026": {
-        "rank": 74,
+        "rank": 73,
         "visa_free_count": 64
       }
     },
@@ -4321,12 +4321,12 @@
         "visa_free_count": 49
       },
       "2026": {
-        "rank": 88,
-        "visa_free_count": 46
+        "rank": 89,
+        "visa_free_count": 45
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 46
+    "visaFreeCount": 45
   },
   "DK": {
     "code": "DK",
@@ -4511,12 +4511,12 @@
         "visa_free_count": 145
       },
       "2026": {
-        "rank": 31,
-        "visa_free_count": 145
+        "rank": 29,
+        "visa_free_count": 144
       }
     },
     "region": "CARIBBEAN",
-    "visaFreeCount": 145
+    "visaFreeCount": 144
   },
   "DO": {
     "code": "DO",
@@ -4606,12 +4606,12 @@
         "visa_free_count": 75
       },
       "2026": {
-        "rank": 67,
-        "visa_free_count": 71
+        "rank": 68,
+        "visa_free_count": 70
       }
     },
     "region": "CARIBBEAN",
-    "visaFreeCount": 71
+    "visaFreeCount": 70
   },
   "DZ": {
     "code": "DZ",
@@ -4701,12 +4701,12 @@
         "visa_free_count": 56
       },
       "2026": {
-        "rank": 80,
-        "visa_free_count": 56
+        "rank": 81,
+        "visa_free_count": 55
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 56
+    "visaFreeCount": 55
   },
   "EC": {
     "code": "EC",
@@ -4797,11 +4797,11 @@
       },
       "2026": {
         "rank": 53,
-        "visa_free_count": 93
+        "visa_free_count": 92
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 93
+    "visaFreeCount": 92
   },
   "EE": {
     "code": "EE",
@@ -4978,12 +4978,12 @@
         "visa_free_count": 52
       },
       "2026": {
-        "rank": 85,
-        "visa_free_count": 50
+        "rank": 86,
+        "visa_free_count": 49
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 50
+    "visaFreeCount": 49
   },
   "ER": {
     "code": "ER",
@@ -5073,12 +5073,12 @@
         "visa_free_count": 42
       },
       "2026": {
-        "rank": 94,
-        "visa_free_count": 39
+        "rank": 95,
+        "visa_free_count": 38
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 39
+    "visaFreeCount": 38
   },
   "ES": {
     "code": "ES",
@@ -5263,12 +5263,12 @@
         "visa_free_count": 46
       },
       "2026": {
-        "rank": 91,
-        "visa_free_count": 43
+        "rank": 92,
+        "visa_free_count": 42
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 43
+    "visaFreeCount": 42
   },
   "FI": {
     "code": "FI",
@@ -5453,7 +5453,7 @@
         "visa_free_count": 90
       },
       "2026": {
-        "rank": 57,
+        "rank": 56,
         "visa_free_count": 87
       }
     },
@@ -5760,12 +5760,12 @@
         "visa_free_count": 60
       },
       "2026": {
-        "rank": 79,
-        "visa_free_count": 57
+        "rank": 80,
+        "visa_free_count": 56
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 57
+    "visaFreeCount": 56
   },
   "GB": {
     "code": "GB",
@@ -5950,12 +5950,12 @@
         "visa_free_count": 148
       },
       "2026": {
-        "rank": 29,
-        "visa_free_count": 147
+        "rank": 26,
+        "visa_free_count": 148
       }
     },
     "region": "CARIBBEAN",
-    "visaFreeCount": 147
+    "visaFreeCount": 148
   },
   "GE": {
     "code": "GE",
@@ -6150,7 +6150,7 @@
         "visa_free_count": 68
       },
       "2026": {
-        "rank": 71,
+        "rank": 70,
         "visa_free_count": 67
       }
     },
@@ -6265,7 +6265,7 @@
         "visa_free_count": 71
       },
       "2026": {
-        "rank": 70,
+        "rank": 69,
         "visa_free_count": 68
       }
     },
@@ -6360,7 +6360,7 @@
         "visa_free_count": 59
       },
       "2026": {
-        "rank": 82,
+        "rank": 83,
         "visa_free_count": 53
       }
     },
@@ -6455,7 +6455,7 @@
         "visa_free_count": 57
       },
       "2026": {
-        "rank": 81,
+        "rank": 82,
         "visa_free_count": 54
       }
     },
@@ -6645,12 +6645,12 @@
         "visa_free_count": 135
       },
       "2026": {
-        "rank": 35,
-        "visa_free_count": 133
+        "rank": 36,
+        "visa_free_count": 132
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 133
+    "visaFreeCount": 132
   },
   "GU": {
     "code": "GU",
@@ -6750,7 +6750,7 @@
         "visa_free_count": 55
       },
       "2026": {
-        "rank": 84,
+        "rank": 85,
         "visa_free_count": 51
       }
     },
@@ -6846,11 +6846,11 @@
       },
       "2026": {
         "rank": 55,
-        "visa_free_count": 89
+        "visa_free_count": 88
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 89
+    "visaFreeCount": 88
   },
   "HK": {
     "code": "HK",
@@ -7035,12 +7035,12 @@
         "visa_free_count": 133
       },
       "2026": {
-        "rank": 38,
-        "visa_free_count": 130
+        "rank": 39,
+        "visa_free_count": 129
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 130
+    "visaFreeCount": 129
   },
   "HR": {
     "code": "HR",
@@ -7225,12 +7225,12 @@
         "visa_free_count": 53
       },
       "2026": {
-        "rank": 86,
-        "visa_free_count": 49
+        "rank": 87,
+        "visa_free_count": 48
       }
     },
     "region": "CARIBBEAN",
-    "visaFreeCount": 49
+    "visaFreeCount": 48
   },
   "HU": {
     "code": "HU",
@@ -7415,12 +7415,12 @@
         "visa_free_count": 76
       },
       "2026": {
-        "rank": 67,
-        "visa_free_count": 71
+        "rank": 68,
+        "visa_free_count": 70
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 71
+    "visaFreeCount": 70
   },
   "IE": {
     "code": "IE",
@@ -7700,12 +7700,12 @@
         "visa_free_count": 57
       },
       "2026": {
-        "rank": 80,
-        "visa_free_count": 56
+        "rank": 81,
+        "visa_free_count": 55
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 56
+    "visaFreeCount": 55
   },
   "IQ": {
     "code": "IQ",
@@ -7795,12 +7795,12 @@
         "visa_free_count": 31
       },
       "2026": {
-        "rank": 101,
-        "visa_free_count": 29
+        "rank": 102,
+        "visa_free_count": 28
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 29
+    "visaFreeCount": 28
   },
   "IR": {
     "code": "IR",
@@ -7890,12 +7890,12 @@
         "visa_free_count": 44
       },
       "2026": {
-        "rank": 95,
-        "visa_free_count": 38
+        "rank": 96,
+        "visa_free_count": 37
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 38
+    "visaFreeCount": 37
   },
   "IS": {
     "code": "IS",
@@ -8175,12 +8175,12 @@
         "visa_free_count": 89
       },
       "2026": {
-        "rank": 58,
-        "visa_free_count": 85
+        "rank": 59,
+        "visa_free_count": 84
       }
     },
     "region": "CARIBBEAN",
-    "visaFreeCount": 85
+    "visaFreeCount": 84
   },
   "JO": {
     "code": "JO",
@@ -8270,12 +8270,12 @@
         "visa_free_count": 53
       },
       "2026": {
-        "rank": 85,
-        "visa_free_count": 50
+        "rank": 86,
+        "visa_free_count": 49
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 50
+    "visaFreeCount": 49
   },
   "JP": {
     "code": "JP",
@@ -8556,11 +8556,11 @@
       },
       "2026": {
         "rank": 77,
-        "visa_free_count": 60
+        "visa_free_count": 59
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 60
+    "visaFreeCount": 59
   },
   "KH": {
     "code": "KH",
@@ -8650,12 +8650,12 @@
         "visa_free_count": 53
       },
       "2026": {
-        "rank": 87,
-        "visa_free_count": 48
+        "rank": 88,
+        "visa_free_count": 47
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 48
+    "visaFreeCount": 47
   },
   "KI": {
     "code": "KI",
@@ -8745,12 +8745,12 @@
         "visa_free_count": 124
       },
       "2026": {
-        "rank": 43,
-        "visa_free_count": 122
+        "rank": 44,
+        "visa_free_count": 121
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 122
+    "visaFreeCount": 121
   },
   "KM": {
     "code": "KM",
@@ -8832,12 +8832,12 @@
         "visa_free_count": 54
       },
       "2026": {
-        "rank": 83,
-        "visa_free_count": 52
+        "rank": 85,
+        "visa_free_count": 51
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 52
+    "visaFreeCount": 51
   },
   "KN": {
     "code": "KN",
@@ -8927,12 +8927,12 @@
         "visa_free_count": 157
       },
       "2026": {
-        "rank": 23,
-        "visa_free_count": 156
+        "rank": 21,
+        "visa_free_count": 157
       }
     },
     "region": "CARIBBEAN",
-    "visaFreeCount": 156
+    "visaFreeCount": 157
   },
   "KP": {
     "code": "KP",
@@ -9022,12 +9022,12 @@
         "visa_free_count": 41
       },
       "2026": {
-        "rank": 96,
-        "visa_free_count": 36
+        "rank": 97,
+        "visa_free_count": 35
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 36
+    "visaFreeCount": 35
   },
   "KR": {
     "code": "KR",
@@ -9212,7 +9212,7 @@
         "visa_free_count": 99
       },
       "2026": {
-        "rank": 52,
+        "rank": 51,
         "visa_free_count": 97
       }
     },
@@ -9317,12 +9317,12 @@
         "visa_free_count": 77
       },
       "2026": {
-        "rank": 61,
-        "visa_free_count": 78
+        "rank": 63,
+        "visa_free_count": 77
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 78
+    "visaFreeCount": 77
   },
   "LA": {
     "code": "LA",
@@ -9412,12 +9412,12 @@
         "visa_free_count": 49
       },
       "2026": {
-        "rank": 88,
-        "visa_free_count": 46
+        "rank": 89,
+        "visa_free_count": 45
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 46
+    "visaFreeCount": 45
   },
   "LB": {
     "code": "LB",
@@ -9507,12 +9507,12 @@
         "visa_free_count": 45
       },
       "2026": {
-        "rank": 92,
-        "visa_free_count": 42
+        "rank": 93,
+        "visa_free_count": 41
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 42
+    "visaFreeCount": 41
   },
   "LC": {
     "code": "LC",
@@ -9602,7 +9602,7 @@
         "visa_free_count": 148
       },
       "2026": {
-        "rank": 32,
+        "rank": 30,
         "visa_free_count": 143
       }
     },
@@ -9792,12 +9792,12 @@
         "visa_free_count": 44
       },
       "2026": {
-        "rank": 93,
-        "visa_free_count": 40
+        "rank": 94,
+        "visa_free_count": 39
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 40
+    "visaFreeCount": 39
   },
   "LR": {
     "code": "LR",
@@ -9982,12 +9982,12 @@
         "visa_free_count": 79
       },
       "2026": {
-        "rank": 65,
-        "visa_free_count": 74
+        "rank": 66,
+        "visa_free_count": 73
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 74
+    "visaFreeCount": 73
   },
   "LT": {
     "code": "LT",
@@ -10362,12 +10362,12 @@
         "visa_free_count": 40
       },
       "2026": {
-        "rank": 93,
-        "visa_free_count": 40
+        "rank": 94,
+        "visa_free_count": 39
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 40
+    "visaFreeCount": 39
   },
   "MA": {
     "code": "MA",
@@ -10839,12 +10839,12 @@
         "visa_free_count": 60
       },
       "2026": {
-        "rank": 79,
-        "visa_free_count": 57
+        "rank": 80,
+        "visa_free_count": 56
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 57
+    "visaFreeCount": 56
   },
   "MH": {
     "code": "MH",
@@ -11116,7 +11116,7 @@
         "visa_free_count": 55
       },
       "2026": {
-        "rank": 82,
+        "rank": 83,
         "visa_free_count": 53
       }
     },
@@ -11211,12 +11211,12 @@
         "visa_free_count": 46
       },
       "2026": {
-        "rank": 90,
-        "visa_free_count": 44
+        "rank": 91,
+        "visa_free_count": 43
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 44
+    "visaFreeCount": 43
   },
   "MN": {
     "code": "MN",
@@ -11307,11 +11307,11 @@
       },
       "2026": {
         "rank": 73,
-        "visa_free_count": 65
+        "visa_free_count": 64
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 65
+    "visaFreeCount": 64
   },
   "MO": {
     "code": "MO",
@@ -11401,7 +11401,7 @@
         "visa_free_count": 145
       },
       "2026": {
-        "rank": 33,
+        "rank": 31,
         "visa_free_count": 142
       }
     },
@@ -11506,12 +11506,12 @@
         "visa_free_count": 58
       },
       "2026": {
-        "rank": 80,
-        "visa_free_count": 56
+        "rank": 81,
+        "visa_free_count": 55
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 56
+    "visaFreeCount": 55
   },
   "MS": {
     "code": "MS",
@@ -11706,7 +11706,7 @@
         "visa_free_count": 151
       },
       "2026": {
-        "rank": 28,
+        "rank": 26,
         "visa_free_count": 148
       }
     },
@@ -11801,7 +11801,7 @@
         "visa_free_count": 94
       },
       "2026": {
-        "rank": 53,
+        "rank": 52,
         "visa_free_count": 93
       }
     },
@@ -11896,12 +11896,12 @@
         "visa_free_count": 75
       },
       "2026": {
-        "rank": 67,
-        "visa_free_count": 71
+        "rank": 68,
+        "visa_free_count": 70
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 71
+    "visaFreeCount": 70
   },
   "MX": {
     "code": "MX",
@@ -11992,11 +11992,11 @@
       },
       "2026": {
         "rank": 22,
-        "visa_free_count": 157
+        "visa_free_count": 156
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 157
+    "visaFreeCount": 156
   },
   "MY": {
     "code": "MY",
@@ -12181,7 +12181,7 @@
         "visa_free_count": 65
       },
       "2026": {
-        "rank": 77,
+        "rank": 76,
         "visa_free_count": 60
       }
     },
@@ -12276,12 +12276,12 @@
         "visa_free_count": 81
       },
       "2026": {
-        "rank": 64,
-        "visa_free_count": 75
+        "rank": 65,
+        "visa_free_count": 74
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 75
+    "visaFreeCount": 74
   },
   "NC": {
     "code": "NC",
@@ -12381,7 +12381,7 @@
         "visa_free_count": 57
       },
       "2026": {
-        "rank": 81,
+        "rank": 82,
         "visa_free_count": 54
       }
     },
@@ -12572,11 +12572,11 @@
       },
       "2026": {
         "rank": 42,
-        "visa_free_count": 125
+        "visa_free_count": 124
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 125
+    "visaFreeCount": 124
   },
   "NL": {
     "code": "NL",
@@ -12856,12 +12856,12 @@
         "visa_free_count": 39
       },
       "2026": {
-        "rank": 97,
-        "visa_free_count": 35
+        "rank": 98,
+        "visa_free_count": 34
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 35
+    "visaFreeCount": 34
   },
   "NR": {
     "code": "NR",
@@ -12951,12 +12951,12 @@
         "visa_free_count": 89
       },
       "2026": {
-        "rank": 58,
-        "visa_free_count": 85
+        "rank": 59,
+        "visa_free_count": 84
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 85
+    "visaFreeCount": 84
   },
   "NU": {
     "code": "NU",
@@ -13246,12 +13246,12 @@
         "visa_free_count": 148
       },
       "2026": {
-        "rank": 28,
-        "visa_free_count": 148
+        "rank": 27,
+        "visa_free_count": 147
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 148
+    "visaFreeCount": 147
   },
   "PE": {
     "code": "PE",
@@ -13341,12 +13341,12 @@
         "visa_free_count": 143
       },
       "2026": {
-        "rank": 33,
-        "visa_free_count": 142
+        "rank": 32,
+        "visa_free_count": 141
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 142
+    "visaFreeCount": 141
   },
   "PF": {
     "code": "PF",
@@ -13446,12 +13446,12 @@
         "visa_free_count": 87
       },
       "2026": {
-        "rank": 58,
-        "visa_free_count": 85
+        "rank": 59,
+        "visa_free_count": 84
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 85
+    "visaFreeCount": 84
   },
   "PH": {
     "code": "PH",
@@ -13542,11 +13542,11 @@
       },
       "2026": {
         "rank": 72,
-        "visa_free_count": 66
+        "visa_free_count": 65
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 66
+    "visaFreeCount": 65
   },
   "PK": {
     "code": "PK",
@@ -13636,12 +13636,12 @@
         "visa_free_count": 33
       },
       "2026": {
-        "rank": 100,
-        "visa_free_count": 30
+        "rank": 101,
+        "visa_free_count": 29
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 30
+    "visaFreeCount": 29
   },
   "PL": {
     "code": "PL",
@@ -13828,12 +13828,12 @@
         "visa_free_count": 40
       },
       "2026": {
-        "rank": 95,
-        "visa_free_count": 38
+        "rank": 96,
+        "visa_free_count": 37
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 38
+    "visaFreeCount": 37
   },
   "PT": {
     "code": "PT",
@@ -14010,12 +14010,12 @@
         "visa_free_count": 124
       },
       "2026": {
-        "rank": 44,
-        "visa_free_count": 121
+        "rank": 45,
+        "visa_free_count": 120
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 121
+    "visaFreeCount": 120
   },
   "PY": {
     "code": "PY",
@@ -14105,12 +14105,12 @@
         "visa_free_count": 148
       },
       "2026": {
-        "rank": 30,
-        "visa_free_count": 146
+        "rank": 28,
+        "visa_free_count": 145
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 146
+    "visaFreeCount": 145
   },
   "QA": {
     "code": "QA",
@@ -14200,7 +14200,7 @@
         "visa_free_count": 112
       },
       "2026": {
-        "rank": 49,
+        "rank": 48,
         "visa_free_count": 112
       }
     },
@@ -14400,7 +14400,7 @@
         "visa_free_count": 139
       },
       "2026": {
-        "rank": 34,
+        "rank": 33,
         "visa_free_count": 135
       }
     },
@@ -14591,11 +14591,11 @@
       },
       "2026": {
         "rank": 69,
-        "visa_free_count": 69
+        "visa_free_count": 68
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 69
+    "visaFreeCount": 68
   },
   "SA": {
     "code": "SA",
@@ -14686,11 +14686,11 @@
       },
       "2026": {
         "rank": 54,
-        "visa_free_count": 90
+        "visa_free_count": 91
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 90
+    "visaFreeCount": 91
   },
   "SB": {
     "code": "SB",
@@ -14875,7 +14875,7 @@
         "visa_free_count": 156
       },
       "2026": {
-        "rank": 24,
+        "rank": 23,
         "visa_free_count": 155
       }
     },
@@ -14970,12 +14970,12 @@
         "visa_free_count": 43
       },
       "2026": {
-        "rank": 92,
-        "visa_free_count": 42
+        "rank": 93,
+        "visa_free_count": 41
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 42
+    "visaFreeCount": 41
   },
   "SE": {
     "code": "SE",
@@ -15455,7 +15455,7 @@
         "visa_free_count": 66
       },
       "2026": {
-        "rank": 75,
+        "rank": 74,
         "visa_free_count": 63
       }
     },
@@ -15740,12 +15740,12 @@
         "visa_free_count": 35
       },
       "2026": {
-        "rank": 98,
-        "visa_free_count": 33
+        "rank": 99,
+        "visa_free_count": 32
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 33
+    "visaFreeCount": 32
   },
   "SR": {
     "code": "SR",
@@ -15835,12 +15835,12 @@
         "visa_free_count": 79
       },
       "2026": {
-        "rank": 63,
-        "visa_free_count": 76
+        "rank": 64,
+        "visa_free_count": 75
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 76
+    "visaFreeCount": 75
   },
   "SS": {
     "code": "SS",
@@ -15922,12 +15922,12 @@
         "visa_free_count": 44
       },
       "2026": {
-        "rank": 92,
-        "visa_free_count": 42
+        "rank": 93,
+        "visa_free_count": 41
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 42
+    "visaFreeCount": 41
   },
   "ST": {
     "code": "ST",
@@ -16017,7 +16017,7 @@
         "visa_free_count": 63
       },
       "2026": {
-        "rank": 78,
+        "rank": 77,
         "visa_free_count": 59
       }
     },
@@ -16112,12 +16112,12 @@
         "visa_free_count": 136
       },
       "2026": {
-        "rank": 36,
-        "visa_free_count": 132
+        "rank": 37,
+        "visa_free_count": 131
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 132
+    "visaFreeCount": 131
   },
   "SY": {
     "code": "SY",
@@ -16207,12 +16207,12 @@
         "visa_free_count": 27
       },
       "2026": {
-        "rank": 102,
-        "visa_free_count": 26
+        "rank": 103,
+        "visa_free_count": 25
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 26
+    "visaFreeCount": 25
   },
   "SZ": {
     "code": "SZ",
@@ -16302,12 +16302,12 @@
         "visa_free_count": 77
       },
       "2026": {
-        "rank": 66,
-        "visa_free_count": 72
+        "rank": 67,
+        "visa_free_count": 71
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 72
+    "visaFreeCount": 71
   },
   "TC": {
     "code": "TC",
@@ -16399,12 +16399,12 @@
         "visa_free_count": 53
       },
       "2026": {
-        "rank": 83,
-        "visa_free_count": 52
+        "rank": 85,
+        "visa_free_count": 51
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 52
+    "visaFreeCount": 51
   },
   "TG": {
     "code": "TG",
@@ -16589,7 +16589,7 @@
         "visa_free_count": 82
       },
       "2026": {
-        "rank": 62,
+        "rank": 63,
         "visa_free_count": 77
       }
     },
@@ -16684,12 +16684,12 @@
         "visa_free_count": 58
       },
       "2026": {
-        "rank": 82,
-        "visa_free_count": 53
+        "rank": 84,
+        "visa_free_count": 52
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 53
+    "visaFreeCount": 52
   },
   "TL": {
     "code": "TL",
@@ -16771,7 +16771,7 @@
         "visa_free_count": 97
       },
       "2026": {
-        "rank": 53,
+        "rank": 52,
         "visa_free_count": 93
       }
     },
@@ -16866,12 +16866,12 @@
         "visa_free_count": 50
       },
       "2026": {
-        "rank": 89,
-        "visa_free_count": 45
+        "rank": 90,
+        "visa_free_count": 44
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 45
+    "visaFreeCount": 44
   },
   "TN": {
     "code": "TN",
@@ -16962,11 +16962,11 @@
       },
       "2026": {
         "rank": 71,
-        "visa_free_count": 67
+        "visa_free_count": 66
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 67
+    "visaFreeCount": 66
   },
   "TO": {
     "code": "TO",
@@ -17056,12 +17056,12 @@
         "visa_free_count": 131
       },
       "2026": {
-        "rank": 40,
-        "visa_free_count": 128
+        "rank": 41,
+        "visa_free_count": 127
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 128
+    "visaFreeCount": 127
   },
   "TR": {
     "code": "TR",
@@ -17152,11 +17152,11 @@
       },
       "2026": {
         "rank": 48,
-        "visa_free_count": 113
+        "visa_free_count": 112
       }
     },
     "region": "EUROPE",
-    "visaFreeCount": 113
+    "visaFreeCount": 112
   },
   "TT": {
     "code": "TT",
@@ -17246,12 +17246,12 @@
         "visa_free_count": 152
       },
       "2026": {
-        "rank": 31,
-        "visa_free_count": 145
+        "rank": 29,
+        "visa_free_count": 144
       }
     },
     "region": "CARIBBEAN",
-    "visaFreeCount": 145
+    "visaFreeCount": 144
   },
   "TV": {
     "code": "TV",
@@ -17342,11 +17342,11 @@
       },
       "2026": {
         "rank": 42,
-        "visa_free_count": 125
+        "visa_free_count": 124
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 125
+    "visaFreeCount": 124
   },
   "TW": {
     "code": "TW",
@@ -17437,11 +17437,11 @@
       },
       "2026": {
         "rank": 34,
-        "visa_free_count": 135
+        "visa_free_count": 134
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 135
+    "visaFreeCount": 134
   },
   "TZ": {
     "code": "TZ",
@@ -17532,11 +17532,11 @@
       },
       "2026": {
         "rank": 69,
-        "visa_free_count": 69
+        "visa_free_count": 68
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 69
+    "visaFreeCount": 68
   },
   "UA": {
     "code": "UA",
@@ -17626,7 +17626,7 @@
         "visa_free_count": 148
       },
       "2026": {
-        "rank": 33,
+        "rank": 31,
         "visa_free_count": 142
       }
     },
@@ -17722,11 +17722,11 @@
       },
       "2026": {
         "rank": 72,
-        "visa_free_count": 66
+        "visa_free_count": 65
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 66
+    "visaFreeCount": 65
   },
   "US": {
     "code": "US",
@@ -17911,7 +17911,7 @@
         "visa_free_count": 157
       },
       "2026": {
-        "rank": 23,
+        "rank": 22,
         "visa_free_count": 156
       }
     },
@@ -18007,11 +18007,11 @@
       },
       "2026": {
         "rank": 78,
-        "visa_free_count": 59
+        "visa_free_count": 58
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 59
+    "visaFreeCount": 58
   },
   "VA": {
     "code": "VA",
@@ -18093,7 +18093,7 @@
         "visa_free_count": 155
       },
       "2026": {
-        "rank": 26,
+        "rank": 25,
         "visa_free_count": 152
       }
     },
@@ -18188,7 +18188,7 @@
         "visa_free_count": 157
       },
       "2026": {
-        "rank": 22,
+        "rank": 21,
         "visa_free_count": 157
       }
     },
@@ -18284,11 +18284,11 @@
       },
       "2026": {
         "rank": 46,
-        "visa_free_count": 117
+        "visa_free_count": 116
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 117
+    "visaFreeCount": 116
   },
   "VG": {
     "code": "VG",
@@ -18398,12 +18398,12 @@
         "visa_free_count": 51
       },
       "2026": {
-        "rank": 86,
-        "visa_free_count": 49
+        "rank": 87,
+        "visa_free_count": 48
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 49
+    "visaFreeCount": 48
   },
   "VU": {
     "code": "VU",
@@ -18494,11 +18494,11 @@
       },
       "2026": {
         "rank": 57,
-        "visa_free_count": 87
+        "visa_free_count": 86
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 87
+    "visaFreeCount": 86
   },
   "WS": {
     "code": "WS",
@@ -18588,12 +18588,12 @@
         "visa_free_count": 131
       },
       "2026": {
-        "rank": 39,
-        "visa_free_count": 129
+        "rank": 40,
+        "visa_free_count": 128
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 129
+    "visaFreeCount": 128
   },
   "XK": {
     "code": "XK",
@@ -18668,11 +18668,11 @@
       },
       "2026": {
         "rank": 60,
-        "visa_free_count": 82
+        "visa_free_count": 83
       }
     },
     "region": "EUROPE",
-    "visaFreeCount": 82
+    "visaFreeCount": 83
   },
   "YE": {
     "code": "YE",
@@ -18762,12 +18762,12 @@
         "visa_free_count": 33
       },
       "2026": {
-        "rank": 99,
-        "visa_free_count": 31
+        "rank": 100,
+        "visa_free_count": 30
       }
     },
     "region": "MIDDLE EAST",
-    "visaFreeCount": 31
+    "visaFreeCount": 30
   },
   "YT": {
     "code": "YT",
@@ -18867,7 +18867,7 @@
         "visa_free_count": 106
       },
       "2026": {
-        "rank": 50,
+        "rank": 49,
         "visa_free_count": 101
       }
     },
@@ -18963,11 +18963,11 @@
       },
       "2026": {
         "rank": 73,
-        "visa_free_count": 65
+        "visa_free_count": 64
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 65
+    "visaFreeCount": 64
   },
   "ZW": {
     "code": "ZW",
@@ -19057,11 +19057,11 @@
         "visa_free_count": 65
       },
       "2026": {
-        "rank": 76,
-        "visa_free_count": 62
+        "rank": 75,
+        "visa_free_count": 61
       }
     },
     "region": "AFRICA",
-    "visaFreeCount": 62
+    "visaFreeCount": 61
   }
 }

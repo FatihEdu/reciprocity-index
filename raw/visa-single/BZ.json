@@ -37,6 +37,10 @@
       "name": "Gibraltar"
     },
     {
+      "code": "IE",
+      "name": "Ireland"
+    },
+    {
       "code": "MW",
       "name": "Malawi"
     },
@@ -155,10 +159,6 @@
     {
       "code": "HK",
       "name": "Hong Kong (SAR China)"
-    },
-    {
-      "code": "IE",
-      "name": "Ireland"
     },
     {
       "code": "JM",
@@ -315,20 +315,20 @@
   ],
   "visa_on_arrival": [
     {
-      "code": "MG",
-      "name": "Madagascar"
-    },
-    {
-      "code": "BI",
-      "name": "Burundi"
-    },
-    {
       "code": "KH",
       "name": "Cambodia"
     },
     {
       "code": "CV",
       "name": "Cape Verde Islands"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi"
     },
     {
       "code": "KM",
@@ -409,12 +409,12 @@
   ],
   "visa_online": [
     {
-      "code": "QA",
-      "name": "Qatar"
-    },
-    {
       "code": "AZ",
       "name": "Azerbaijan"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar"
     },
     {
       "code": "ET",
@@ -555,12 +555,20 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
     {
       "code": "BD",
       "name": "Bangladesh"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "AF",
@@ -593,10 +601,6 @@
     {
       "code": "BZ",
       "name": "Belize"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BN",
@@ -717,10 +721,6 @@
     {
       "code": "LV",
       "name": "Latvia"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",

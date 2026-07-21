@@ -17,6 +17,10 @@
   ],
   "visa_free_access": [
     {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
+    {
       "code": "GI",
       "name": "Gibraltar"
     },
@@ -43,10 +47,6 @@
     {
       "code": "BE",
       "name": "Belgium"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BG",
@@ -283,6 +283,14 @@
       "name": "Bangladesh"
     },
     {
+      "code": "KH",
+      "name": "Cambodia"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
+    },
+    {
       "code": "MG",
       "name": "Madagascar"
     },
@@ -293,14 +301,6 @@
     {
       "code": "BI",
       "name": "Burundi"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -381,16 +381,16 @@
   ],
   "visa_online": [
     {
+      "code": "AZ",
+      "name": "Azerbaijan"
+    },
+    {
       "code": "QA",
       "name": "Qatar"
     },
     {
       "code": "AG",
       "name": "Antigua and Barbuda"
-    },
-    {
-      "code": "AZ",
-      "name": "Azerbaijan"
     },
     {
       "code": "BH",
@@ -563,9 +563,17 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
+    {
+      "code": "IE",
+      "name": "Ireland"
+    },
     {
       "code": "TW",
       "name": "Taiwan (Chinese Taipei)"
@@ -699,10 +707,6 @@
       "name": "Iraq"
     },
     {
-      "code": "IE",
-      "name": "Ireland"
-    },
-    {
       "code": "IL",
       "name": "Israel"
     },
@@ -721,10 +725,6 @@
     {
       "code": "LB",
       "name": "Lebanon"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "MK",

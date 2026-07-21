@@ -29,6 +29,10 @@
     {
       "code": "PS",
       "name": "Palestinian Territory"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana"
     }
   ],
   "visa_free_access": [
@@ -43,6 +47,10 @@
     {
       "code": "BY",
       "name": "Belarus"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "GE",
@@ -107,10 +115,6 @@
     {
       "code": "BQ",
       "name": "Bonaire; St. Eustatius and Saba"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BW",
@@ -523,6 +527,14 @@
   ],
   "visa_on_arrival": [
     {
+      "code": "KH",
+      "name": "Cambodia"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
+    },
+    {
       "code": "EG",
       "name": "Egypt"
     },
@@ -533,14 +545,6 @@
     {
       "code": "BI",
       "name": "Burundi"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -633,12 +637,12 @@
   ],
   "visa_online": [
     {
-      "code": "QA",
-      "name": "Qatar"
-    },
-    {
       "code": "AZ",
       "name": "Azerbaijan"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar"
     },
     {
       "code": "BH",
@@ -761,8 +765,8 @@
       "name": "Nicaragua"
     },
     {
-      "code": "GH",
-      "name": "Ghana"
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -813,10 +817,6 @@
     {
       "code": "JP",
       "name": "Japan"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "ML",

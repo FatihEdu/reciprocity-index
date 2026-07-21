@@ -183,10 +183,6 @@
   ],
   "visa_on_arrival": [
     {
-      "code": "CV",
-      "name": "Cape Verde Islands"
-    },
-    {
       "code": "KM",
       "name": "Comoro Islands"
     },
@@ -455,6 +451,10 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -699,10 +699,6 @@
       "name": "Liberia"
     },
     {
-      "code": "LY",
-      "name": "Libya"
-    },
-    {
       "code": "LI",
       "name": "Liechtenstein"
     },
@@ -917,6 +913,10 @@
     {
       "code": "GM",
       "name": "The Gambia"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
     }
   ]
 }

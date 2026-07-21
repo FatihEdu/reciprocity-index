@@ -839,6 +839,10 @@
     {
       "code": "VE",
       "name": "Venezuela"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -873,10 +877,6 @@
     {
       "code": "LR",
       "name": "Liberia"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "ML",

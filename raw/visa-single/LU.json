@@ -77,8 +77,20 @@
       "name": "Albania"
     },
     {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
+    },
+    {
       "code": "GI",
       "name": "Gibraltar"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland"
     },
     {
       "code": "JP",
@@ -149,10 +161,6 @@
       "name": "Bonaire; St. Eustatius and Saba"
     },
     {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
-    },
-    {
       "code": "BW",
       "name": "Botswana"
     },
@@ -167,10 +175,6 @@
     {
       "code": "BG",
       "name": "Bulgaria"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KY",
@@ -315,10 +319,6 @@
     {
       "code": "IS",
       "name": "Iceland"
-    },
-    {
-      "code": "IE",
-      "name": "Ireland"
     },
     {
       "code": "IT",
@@ -651,6 +651,10 @@
       "name": "Bangladesh"
     },
     {
+      "code": "KH",
+      "name": "Cambodia"
+    },
+    {
       "code": "ET",
       "name": "Ethiopia"
     },
@@ -669,10 +673,6 @@
     {
       "code": "BI",
       "name": "Burundi"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
     },
     {
       "code": "KM",
@@ -855,6 +855,10 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -881,10 +885,6 @@
     {
       "code": "ER",
       "name": "Eritrea"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LU",

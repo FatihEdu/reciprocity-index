@@ -219,6 +219,10 @@
     {
       "code": "BR",
       "name": "Brazil"
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia"
     }
   ],
   "visa_on_arrival": [
@@ -229,10 +233,6 @@
     {
       "code": "BD",
       "name": "Bangladesh"
-    },
-    {
-      "code": "KH",
-      "name": "Cambodia"
     },
     {
       "code": "CV",
@@ -479,6 +479,10 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -693,10 +697,6 @@
     {
       "code": "LR",
       "name": "Liberia"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",

@@ -407,6 +407,10 @@
     {
       "code": "GB",
       "name": "United Kingdom"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
@@ -665,10 +669,6 @@
     {
       "code": "LV",
       "name": "Latvia"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",

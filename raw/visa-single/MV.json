@@ -25,6 +25,10 @@
       "name": "Gibraltar"
     },
     {
+      "code": "IE",
+      "name": "Ireland"
+    },
+    {
       "code": "AI",
       "name": "Anguilla"
     },
@@ -99,10 +103,6 @@
     {
       "code": "IN",
       "name": "India"
-    },
-    {
-      "code": "IE",
-      "name": "Ireland"
     },
     {
       "code": "JM",
@@ -267,16 +267,16 @@
   ],
   "visa_on_arrival": [
     {
+      "code": "CV",
+      "name": "Cape Verde Islands"
+    },
+    {
       "code": "MG",
       "name": "Madagascar"
     },
     {
       "code": "MW",
       "name": "Malawi"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
     },
     {
       "code": "KM",
@@ -515,9 +515,17 @@
     {
       "code": "GH",
       "name": "Ghana"
+    },
+    {
+      "code": "LY",
+      "name": "Libya"
     }
   ],
   "visa_required": [
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
     {
       "code": "TW",
       "name": "Taiwan (Chinese Taipei)"
@@ -561,10 +569,6 @@
     {
       "code": "BQ",
       "name": "Bonaire; St. Eustatius and Saba"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BR",
@@ -709,10 +713,6 @@
     {
       "code": "LB",
       "name": "Lebanon"
-    },
-    {
-      "code": "LY",
-      "name": "Libya"
     },
     {
       "code": "LI",

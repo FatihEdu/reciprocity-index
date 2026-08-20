@@ -495,6 +495,10 @@
     {
       "code": "TG",
       "name": "Togo"
+    },
+    {
+      "code": "OM",
+      "name": "Oman"
     }
   ],
   "visa_on_arrival": [
@@ -627,10 +631,6 @@
     {
       "code": "MM",
       "name": "Myanmar"
-    },
-    {
-      "code": "OM",
-      "name": "Oman"
     },
     {
       "code": "PK",
@@ -821,10 +821,6 @@
     {
       "code": "ML",
       "name": "Mali"
-    },
-    {
-      "code": "MU",
-      "name": "Mauritius"
     },
     {
       "code": "MX",

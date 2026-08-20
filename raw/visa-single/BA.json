@@ -375,6 +375,10 @@
     {
       "code": "XK",
       "name": "Kosovo"
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan"
     }
   ],
   "visa_on_arrival": [
@@ -496,10 +500,6 @@
     }
   ],
   "visa_online": [
-    {
-      "code": "AZ",
-      "name": "Azerbaijan"
-    },
     {
       "code": "AG",
       "name": "Antigua and Barbuda"
@@ -654,10 +654,6 @@
     }
   ],
   "visa_required": [
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
-    },
     {
       "code": "GI",
       "name": "Gibraltar"

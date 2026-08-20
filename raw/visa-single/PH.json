@@ -179,6 +179,10 @@
     {
       "code": "AO",
       "name": "Angola"
+    },
+    {
+      "code": "OM",
+      "name": "Oman"
     }
   ],
   "visa_on_arrival": [
@@ -295,10 +299,6 @@
     {
       "code": "MS",
       "name": "Montserrat"
-    },
-    {
-      "code": "OM",
-      "name": "Oman"
     },
     {
       "code": "PK",
@@ -773,10 +773,6 @@
     {
       "code": "PA",
       "name": "Panama"
-    },
-    {
-      "code": "PH",
-      "name": "Philippines"
     },
     {
       "code": "PL",

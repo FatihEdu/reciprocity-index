@@ -41,6 +41,10 @@
       "name": "Bosnia and Herzegovina"
     },
     {
+      "code": "OM",
+      "name": "Oman"
+    },
+    {
       "code": "AD",
       "name": "Andorra"
     },
@@ -577,10 +581,6 @@
       "name": "Togo"
     },
     {
-      "code": "OM",
-      "name": "Oman"
-    },
-    {
       "code": "SY",
       "name": "Syria"
     },
@@ -658,10 +658,6 @@
     }
   ],
   "visa_required": [
-    {
-      "code": "AL",
-      "name": "Albania"
-    },
     {
       "code": "GI",
       "name": "Gibraltar"

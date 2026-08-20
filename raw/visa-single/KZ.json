@@ -33,6 +33,10 @@
       "name": "Azerbaijan"
     },
     {
+      "code": "ID",
+      "name": "Indonesia"
+    },
+    {
       "code": "OM",
       "name": "Oman"
     },
@@ -293,10 +297,6 @@
     {
       "code": "DJ",
       "name": "Djibouti"
-    },
-    {
-      "code": "ID",
-      "name": "Indonesia"
     },
     {
       "code": "QA",
@@ -665,10 +665,6 @@
     {
       "code": "JP",
       "name": "Japan"
-    },
-    {
-      "code": "KZ",
-      "name": "Kazakhstan"
     },
     {
       "code": "KI",

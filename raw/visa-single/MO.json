@@ -61,12 +61,20 @@
       "name": "Gibraltar"
     },
     {
+      "code": "ID",
+      "name": "Indonesia"
+    },
+    {
       "code": "IE",
       "name": "Ireland"
     },
     {
       "code": "JP",
       "name": "Japan"
+    },
+    {
+      "code": "OM",
+      "name": "Oman"
     },
     {
       "code": "KR",
@@ -335,10 +343,6 @@
     {
       "code": "NO",
       "name": "Norway"
-    },
-    {
-      "code": "OM",
-      "name": "Oman"
     },
     {
       "code": "PH",
@@ -657,10 +661,6 @@
       "name": "Cuba"
     },
     {
-      "code": "ID",
-      "name": "Indonesia"
-    },
-    {
       "code": "BF",
       "name": "Burkina Faso"
     },
@@ -809,10 +809,6 @@
     {
       "code": "JM",
       "name": "Jamaica"
-    },
-    {
-      "code": "MO",
-      "name": "Macao (SAR China)"
     },
     {
       "code": "MH",

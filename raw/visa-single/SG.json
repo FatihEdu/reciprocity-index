@@ -93,12 +93,20 @@
       "name": "Gibraltar"
     },
     {
+      "code": "ID",
+      "name": "Indonesia"
+    },
+    {
       "code": "IE",
       "name": "Ireland"
     },
     {
       "code": "JP",
       "name": "Japan"
+    },
+    {
+      "code": "OM",
+      "name": "Oman"
     },
     {
       "code": "KR",
@@ -337,10 +345,6 @@
       "name": "Iceland"
     },
     {
-      "code": "ID",
-      "name": "Indonesia"
-    },
-    {
       "code": "IT",
       "name": "Italy"
     },
@@ -475,10 +479,6 @@
     {
       "code": "NO",
       "name": "Norway"
-    },
-    {
-      "code": "OM",
-      "name": "Oman"
     },
     {
       "code": "PA",
@@ -667,13 +667,13 @@
     {
       "code": "FK",
       "name": "Falkland Islands"
-    }
-  ],
-  "visa_on_arrival": [
+    },
     {
       "code": "AZ",
       "name": "Azerbaijan"
-    },
+    }
+  ],
+  "visa_on_arrival": [
     {
       "code": "BD",
       "name": "Bangladesh"
@@ -897,10 +897,6 @@
     {
       "code": "KP",
       "name": "North Korea"
-    },
-    {
-      "code": "SG",
-      "name": "Singapore"
     },
     {
       "code": "SD",

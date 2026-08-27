@@ -1,19 +1,10 @@
 {
-  "changedOrigins": [
-    "AL",
-    "BA",
-    "DO",
-    "KZ",
-    "MO",
-    "MU",
-    "PH",
-    "SG"
-  ],
+  "changedOrigins": [],
   "configChanged": false,
   "countriesChanged": true,
   "countriesCount": 227,
   "destinationCount": 227,
-  "historyEventPath": "data-worktree/history/events/2026/08.jsonl",
+  "historyEventPath": null,
   "lastSourceDataChangedAt": "2026-08-20T05:48:05Z",
   "originCount": 199,
   "schemaVersion": 1,

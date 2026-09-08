@@ -110,9 +110,9 @@
     "semanticSha256": "4bdabe7f1e0568dceed26cf5b0f6205b44b703b4977b9520e02a82c6410656a6"
   },
   "BR": {
-    "lastChangedAt": "2026-07-21T07:42:59Z",
-    "rawSha256": "166070f01a98f5c70a525951c252d1aacf3e65a716e45250b5b0726a783c493d",
-    "semanticSha256": "b22fd4dc7d25f5cf6e3b05d3a82243204ed12a3690b4462bc8a7ac5443fec981"
+    "lastChangedAt": "2026-09-08T09:45:12Z",
+    "rawSha256": "7d474f4f8dff6f6b67f3a6b5979f3c32cedf75ef8ffc05dc6fe528c36d545379",
+    "semanticSha256": "3484fe706bd611a4e7ed7d0925115a62806922ca69c3acef014e3bd85e58e19f"
   },
   "BS": {
     "lastChangedAt": "2026-07-21T07:42:59Z",
@@ -355,9 +355,9 @@
     "semanticSha256": "6016d735838cd08efa0078a1cfc5c06966d141f06c71b781582fc8bbb9a19ee2"
   },
   "HK": {
-    "lastChangedAt": "2026-07-21T07:42:59Z",
-    "rawSha256": "444f20f881fd00f8828e5d9a05ee19569b78ba315cc9c0bf89e3ba8ed974fce9",
-    "semanticSha256": "9a0a1611fcd4a335f6fc3e35080ee51f7760c194cdb7e51b8fd911f41ed2f5f1"
+    "lastChangedAt": "2026-09-08T09:45:12Z",
+    "rawSha256": "d652922286d783eb90736745e10b4af11de760d27ab414eb16d74b98a7e3ec16",
+    "semanticSha256": "2632159e9b2d9c585f733fa8326a40fc95e78e61ebe626940872a0ad15cf901d"
   },
   "HN": {
     "lastChangedAt": "2026-07-21T07:42:59Z",
@@ -650,9 +650,9 @@
     "semanticSha256": "cc704f5c7f2a26b2eb9dfaae3b74f3f8191219d23d76b388d44cb534349a1d7b"
   },
   "NI": {
-    "lastChangedAt": "2026-07-21T07:42:59Z",
-    "rawSha256": "ffebccbbbca3cb527a40ed008cdf27ff0a01011ce71a5b12f721a115f3e8ef4d",
-    "semanticSha256": "574c1f43aba1189853c7b1cda4239343850dab14966411fef366aef4d11c7f6d"
+    "lastChangedAt": "2026-09-08T09:45:12Z",
+    "rawSha256": "ff4c69ee46b9bc07470d67d8f430dde2bc6593525c0c583301b7f419716e8236",
+    "semanticSha256": "20962dceed377d11124f73f36f3b20bbd1eb00459f2a96d5d88fcbc75613a8a3"
   },
   "NL": {
     "lastChangedAt": "2026-07-21T07:42:59Z",
@@ -765,9 +765,9 @@
     "semanticSha256": "9d4e651e0d788a46d468ed7e34c4e3aedd2a60f88e1e5dadf8f7baebf175222b"
   },
   "SB": {
-    "lastChangedAt": "2026-07-21T07:42:59Z",
-    "rawSha256": "7cdda30f50971387931898412800ddebe05f07e7183e2fcbd810aeedcc9e5d28",
-    "semanticSha256": "c7de2eeabae4779feb86a4bd042b26ef7b21f39e6f4c44557ff0b2b34be33a2d"
+    "lastChangedAt": "2026-09-08T09:45:12Z",
+    "rawSha256": "d2dbd9f601c837bc50abfed6b52d145a6b9c5c9cda3897b5b48ae05866277046",
+    "semanticSha256": "6c07ebc112a0c727a033033393662d616fd4ebb498cb82d1181c0858dcae26d6"
   },
   "SC": {
     "lastChangedAt": "2026-07-21T07:42:59Z",
@@ -995,8 +995,8 @@
     "semanticSha256": "149e2109743e755d4b3a0bcbc6b9539abc6a48f1702e6aabd6695fb2b438cb68"
   },
   "__countries__": {
-    "lastChangedAt": "2026-08-27T16:32:53Z",
-    "rawSha256": "b0c2aad9e005104bb5e127ba6f7f26dbc7bbdd8bb79d30479978d348ef213bd0",
-    "semanticSha256": "0871e77bb9e5e0944700bb6a5b3628efd6557a3ffbd36ecfc970634b83c12917"
+    "lastChangedAt": "2026-09-08T09:45:12Z",
+    "rawSha256": "5bc6f08e7112bad4715ee9cc9f63216ecf684b2dc633b3f1ab28c159fd662b58",
+    "semanticSha256": "8bf5615d62adce8bc60abade426b7c10caeefab8bd4d1ec73f4c005932a777eb"
   }
 }

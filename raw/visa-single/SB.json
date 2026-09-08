@@ -423,6 +423,10 @@
     {
       "code": "FK",
       "name": "Falkland Islands"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong (SAR China)"
     }
   ],
   "visa_on_arrival": [
@@ -496,7 +500,7 @@
     },
     {
       "code": "NR",
-      "name": "Nauru"
+      "name": "Naoero"
     },
     {
       "code": "NP",
@@ -545,6 +549,10 @@
       "name": "Azerbaijan"
     },
     {
+      "code": "OM",
+      "name": "Oman"
+    },
+    {
       "code": "QA",
       "name": "Qatar"
     },
@@ -575,10 +583,6 @@
     {
       "code": "KG",
       "name": "Kyrgyzstan"
-    },
-    {
-      "code": "OM",
-      "name": "Oman"
     },
     {
       "code": "PK",
@@ -775,10 +779,6 @@
       "name": "Guyana"
     },
     {
-      "code": "HK",
-      "name": "Hong Kong (SAR China)"
-    },
-    {
       "code": "IQ",
       "name": "Iraq"
     },
@@ -865,10 +865,6 @@
     {
       "code": "RS",
       "name": "Serbia"
-    },
-    {
-      "code": "SB",
-      "name": "Solomon Islands"
     },
     {
       "code": "ZA",

@@ -383,6 +383,10 @@
     {
       "code": "FK",
       "name": "Falkland Islands"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong (SAR China)"
     }
   ],
   "visa_on_arrival": [
@@ -739,10 +743,6 @@
       "name": "Guyana"
     },
     {
-      "code": "HK",
-      "name": "Hong Kong (SAR China)"
-    },
-    {
       "code": "IQ",
       "name": "Iraq"
     },
@@ -788,15 +788,11 @@
     },
     {
       "code": "NR",
-      "name": "Nauru"
+      "name": "Naoero"
     },
     {
       "code": "NZ",
       "name": "New Zealand"
-    },
-    {
-      "code": "NI",
-      "name": "Nicaragua"
     },
     {
       "code": "NE",

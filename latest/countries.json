@@ -2227,12 +2227,12 @@
         "visa_free_count": 171
       },
       "2026": {
-        "rank": 16,
-        "visa_free_count": 169
+        "rank": 15,
+        "visa_free_count": 170
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 169
+    "visaFreeCount": 170
   },
   "BS": {
     "code": "BS",
@@ -3654,7 +3654,7 @@
         "visa_free_count": 134
       },
       "2026": {
-        "rank": 39,
+        "rank": 38,
         "visa_free_count": 130
       }
     },
@@ -6645,7 +6645,7 @@
         "visa_free_count": 135
       },
       "2026": {
-        "rank": 37,
+        "rank": 36,
         "visa_free_count": 132
       }
     },
@@ -6940,12 +6940,12 @@
         "visa_free_count": 171
       },
       "2026": {
-        "rank": 14,
-        "visa_free_count": 174
+        "rank": 13,
+        "visa_free_count": 175
       }
     },
     "region": "ASIA",
-    "visaFreeCount": 174
+    "visaFreeCount": 175
   },
   "HN": {
     "code": "HN",
@@ -7035,7 +7035,7 @@
         "visa_free_count": 133
       },
       "2026": {
-        "rank": 40,
+        "rank": 39,
         "visa_free_count": 129
       }
     },
@@ -10734,7 +10734,7 @@
         "visa_free_count": 129
       },
       "2026": {
-        "rank": 42,
+        "rank": 41,
         "visa_free_count": 127
       }
     },
@@ -10934,7 +10934,7 @@
         "visa_free_count": 129
       },
       "2026": {
-        "rank": 41,
+        "rank": 40,
         "visa_free_count": 128
       }
     },
@@ -11021,7 +11021,7 @@
         "visa_free_count": 129
       },
       "2026": {
-        "rank": 42,
+        "rank": 41,
         "visa_free_count": 127
       }
     },
@@ -12571,12 +12571,12 @@
         "visa_free_count": 128
       },
       "2026": {
-        "rank": 43,
-        "visa_free_count": 124
+        "rank": 42,
+        "visa_free_count": 125
       }
     },
     "region": "AMERICAS",
-    "visaFreeCount": 124
+    "visaFreeCount": 125
   },
   "NL": {
     "code": "NL",
@@ -14780,12 +14780,12 @@
         "visa_free_count": 134
       },
       "2026": {
-        "rank": 36,
-        "visa_free_count": 133
+        "rank": 35,
+        "visa_free_count": 134
       }
     },
     "region": "OCEANIA",
-    "visaFreeCount": 133
+    "visaFreeCount": 134
   },
   "SC": {
     "code": "SC",
@@ -16112,7 +16112,7 @@
         "visa_free_count": 136
       },
       "2026": {
-        "rank": 38,
+        "rank": 37,
         "visa_free_count": 131
       }
     },
@@ -17056,7 +17056,7 @@
         "visa_free_count": 131
       },
       "2026": {
-        "rank": 42,
+        "rank": 41,
         "visa_free_count": 127
       }
     },
@@ -18588,7 +18588,7 @@
         "visa_free_count": 131
       },
       "2026": {
-        "rank": 41,
+        "rank": 40,
         "visa_free_count": 128
       }
     },

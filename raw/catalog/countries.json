@@ -2397,8 +2397,8 @@
           "visa_free_count": 171
         },
         "2026": {
-          "rank": 16,
-          "visa_free_count": 169
+          "rank": 15,
+          "visa_free_count": 170
         }
       },
       "flags": {
@@ -2409,7 +2409,7 @@
       "is_schengen": true,
       "openness": 22.61,
       "region": "AMERICAS",
-      "visa_free_count": 169,
+      "visa_free_count": 170,
       "visa_free_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/BR_visa_free.pdf",
       "visa_full_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/BR_visa_full.pdf",
       "visa_required_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/BR_visa_required.pdf"
@@ -3724,7 +3724,7 @@
           "visa_free_count": 134
         },
         "2026": {
-          "rank": 39,
+          "rank": 38,
           "visa_free_count": 130
         }
       },
@@ -5366,7 +5366,7 @@
           "visa_free_count": 136
         },
         "2026": {
-          "rank": 38,
+          "rank": 37,
           "visa_free_count": 131
         }
       },
@@ -6998,7 +6998,7 @@
           "visa_free_count": 135
         },
         "2026": {
-          "rank": 37,
+          "rank": 36,
           "visa_free_count": 132
         }
       },
@@ -7508,7 +7508,7 @@
           "visa_free_count": 133
         },
         "2026": {
-          "rank": 40,
+          "rank": 39,
           "visa_free_count": 129
         }
       },
@@ -7610,8 +7610,8 @@
           "visa_free_count": 171
         },
         "2026": {
-          "rank": 14,
-          "visa_free_count": 174
+          "rank": 13,
+          "visa_free_count": 175
         }
       },
       "flags": {
@@ -7622,7 +7622,7 @@
       "is_schengen": true,
       "openness": 22.61,
       "region": "ASIA",
-      "visa_free_count": 174,
+      "visa_free_count": 175,
       "visa_free_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/HK_visa_free.pdf",
       "visa_full_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/HK_visa_full.pdf",
       "visa_required_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/HK_visa_required.pdf"
@@ -10442,7 +10442,7 @@
           "visa_free_count": 129
         },
         "2026": {
-          "rank": 42,
+          "rank": 41,
           "visa_free_count": 127
         }
       },
@@ -11156,7 +11156,7 @@
           "visa_free_count": 129
         },
         "2026": {
-          "rank": 41,
+          "rank": 40,
           "visa_free_count": 128
         }
       },
@@ -11871,7 +11871,7 @@
           "visa_free_count": 129
         },
         "2026": {
-          "rank": 42,
+          "rank": 41,
           "visa_free_count": 127
         }
       },
@@ -12823,8 +12823,8 @@
           "visa_free_count": 128
         },
         "2026": {
-          "rank": 43,
-          "visa_free_count": 124
+          "rank": 42,
+          "visa_free_count": 125
         }
       },
       "flags": {
@@ -12835,7 +12835,7 @@
       "is_schengen": true,
       "openness": 22.61,
       "region": "AMERICAS",
-      "visa_free_count": 124,
+      "visa_free_count": 125,
       "visa_free_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/NI_visa_free.pdf",
       "visa_full_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/NI_visa_full.pdf",
       "visa_required_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/NI_visa_required.pdf"
@@ -14821,7 +14821,7 @@
           "visa_free_count": 131
         },
         "2026": {
-          "rank": 41,
+          "rank": 40,
           "visa_free_count": 128
         }
       },
@@ -15858,8 +15858,8 @@
           "visa_free_count": 134
         },
         "2026": {
-          "rank": 36,
-          "visa_free_count": 133
+          "rank": 35,
+          "visa_free_count": 134
         }
       },
       "flags": {
@@ -15870,7 +15870,7 @@
       "is_schengen": true,
       "openness": 22.61,
       "region": "OCEANIA",
-      "visa_free_count": 133,
+      "visa_free_count": 134,
       "visa_free_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/SB_visa_free.pdf",
       "visa_full_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/SB_visa_full.pdf",
       "visa_required_url": "https://cdn.henleyglobal.com/storage/app/media/HPI/SB_visa_required.pdf"
@@ -18120,7 +18120,7 @@
           "visa_free_count": 131
         },
         "2026": {
-          "rank": 42,
+          "rank": 41,
           "visa_free_count": 127
         }
       },

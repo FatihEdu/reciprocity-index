@@ -49,22 +49,6 @@
       "name": "Albania"
     },
     {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
-    },
-    {
-      "code": "GI",
-      "name": "Gibraltar"
-    },
-    {
-      "code": "ID",
-      "name": "Indonesia"
-    },
-    {
-      "code": "IE",
-      "name": "Ireland"
-    },
-    {
       "code": "AD",
       "name": "Andorra"
     },
@@ -123,6 +107,10 @@
     {
       "code": "BQ",
       "name": "Bonaire; St. Eustatius and Saba"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
     },
     {
       "code": "BW",
@@ -229,6 +217,10 @@
       "name": "Germany"
     },
     {
+      "code": "GI",
+      "name": "Gibraltar"
+    },
+    {
       "code": "GR",
       "name": "Greece"
     },
@@ -267,6 +259,10 @@
     {
       "code": "IS",
       "name": "Iceland"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia"
     },
     {
       "code": "IT",
@@ -525,6 +521,10 @@
       "name": "British Virgin Islands"
     },
     {
+      "code": "IE",
+      "name": "Ireland"
+    },
+    {
       "code": "JP",
       "name": "Japan"
     },
@@ -555,9 +555,17 @@
     {
       "code": "KG",
       "name": "Kyrgyzstan"
+    },
+    {
+      "code": "GF",
+      "name": "French Guiana"
     }
   ],
   "visa_on_arrival": [
+    {
+      "code": "BH",
+      "name": "Bahrain"
+    },
     {
       "code": "KH",
       "name": "Cambodia"
@@ -567,32 +575,16 @@
       "name": "Cape Verde Islands"
     },
     {
-      "code": "ET",
-      "name": "Ethiopia"
-    },
-    {
-      "code": "MG",
-      "name": "Madagascar"
-    },
-    {
-      "code": "MW",
-      "name": "Malawi"
-    },
-    {
-      "code": "BH",
-      "name": "Bahrain"
-    },
-    {
-      "code": "BI",
-      "name": "Burundi"
-    },
-    {
       "code": "KM",
       "name": "Comoro Islands"
     },
     {
       "code": "EG",
       "name": "Egypt"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia"
     },
     {
       "code": "GW",
@@ -609,6 +601,14 @@
     {
       "code": "LB",
       "name": "Lebanon"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi"
     },
     {
       "code": "MV",
@@ -669,6 +669,10 @@
     {
       "code": "ZW",
       "name": "Zimbabwe"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi"
     },
     {
       "code": "DJ",
@@ -795,24 +799,12 @@
   ],
   "visa_required": [
     {
-      "code": "TW",
-      "name": "Taiwan (Chinese Taipei)"
-    },
-    {
-      "code": "MX",
-      "name": "Mexico"
-    },
-    {
       "code": "AF",
       "name": "Afghanistan"
     },
     {
       "code": "DZ",
       "name": "Algeria"
-    },
-    {
-      "code": "BR",
-      "name": "Brazil"
     },
     {
       "code": "BN",
@@ -839,10 +831,6 @@
       "name": "Eritrea"
     },
     {
-      "code": "GF",
-      "name": "French Guiana"
-    },
-    {
       "code": "GM",
       "name": "The Gambia"
     },
@@ -860,7 +848,7 @@
     },
     {
       "code": "NR",
-      "name": "Nauru"
+      "name": "Naoero"
     },
     {
       "code": "NE",
@@ -891,6 +879,10 @@
       "name": "Sudan"
     },
     {
+      "code": "TW",
+      "name": "Taiwan (Chinese Taipei)"
+    },
+    {
       "code": "TM",
       "name": "Turkmenistan"
     },
@@ -905,6 +897,10 @@
     {
       "code": "YE",
       "name": "Yemen"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico"
     },
     {
       "code": "AU",

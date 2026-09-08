@@ -3,10 +3,6 @@
   "country": "Hong Kong (SAR China)",
   "electronic_travel_authorisation": [
     {
-      "code": "LK",
-      "name": "Sri Lanka"
-    },
-    {
       "code": "AU",
       "name": "Australia"
     },
@@ -17,6 +13,10 @@
     {
       "code": "NZ",
       "name": "New Zealand"
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka"
     },
     {
       "code": "TW",
@@ -55,50 +55,6 @@
     {
       "code": "AL",
       "name": "Albania"
-    },
-    {
-      "code": "BA",
-      "name": "Bosnia and Herzegovina"
-    },
-    {
-      "code": "CV",
-      "name": "Cape Verde Islands"
-    },
-    {
-      "code": "GI",
-      "name": "Gibraltar"
-    },
-    {
-      "code": "ID",
-      "name": "Indonesia"
-    },
-    {
-      "code": "IE",
-      "name": "Ireland"
-    },
-    {
-      "code": "JP",
-      "name": "Japan"
-    },
-    {
-      "code": "XK",
-      "name": "Kosovo"
-    },
-    {
-      "code": "MW",
-      "name": "Malawi"
-    },
-    {
-      "code": "QA",
-      "name": "Qatar"
-    },
-    {
-      "code": "KR",
-      "name": "South Korea"
-    },
-    {
-      "code": "UG",
-      "name": "Uganda"
     },
     {
       "code": "AD",
@@ -157,6 +113,10 @@
       "name": "Bonaire; St. Eustatius and Saba"
     },
     {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina"
+    },
+    {
       "code": "BW",
       "name": "Botswana"
     },
@@ -171,6 +131,10 @@
     {
       "code": "BG",
       "name": "Bulgaria"
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde Islands"
     },
     {
       "code": "KY",
@@ -265,6 +229,10 @@
       "name": "Germany"
     },
     {
+      "code": "GI",
+      "name": "Gibraltar"
+    },
+    {
       "code": "GR",
       "name": "Greece"
     },
@@ -297,6 +265,14 @@
       "name": "Iceland"
     },
     {
+      "code": "ID",
+      "name": "Indonesia"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland"
+    },
+    {
       "code": "IT",
       "name": "Italy"
     },
@@ -305,12 +281,20 @@
       "name": "Jamaica"
     },
     {
+      "code": "JP",
+      "name": "Japan"
+    },
+    {
       "code": "KZ",
       "name": "Kazakhstan"
     },
     {
       "code": "KI",
       "name": "Kiribati"
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo"
     },
     {
       "code": "LV",
@@ -339,6 +323,10 @@
     {
       "code": "MK",
       "name": "North Macedonia"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi"
     },
     {
       "code": "MY",
@@ -441,6 +429,10 @@
       "name": "Portugal"
     },
     {
+      "code": "QA",
+      "name": "Qatar"
+    },
+    {
       "code": "RE",
       "name": "Reunion"
     },
@@ -471,6 +463,10 @@
     {
       "code": "ZA",
       "name": "South Africa"
+    },
+    {
+      "code": "KR",
+      "name": "South Korea"
     },
     {
       "code": "ES",
@@ -523,6 +519,10 @@
     {
       "code": "TC",
       "name": "Turks and Caicos Islands"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda"
     },
     {
       "code": "UA",
@@ -607,9 +607,21 @@
     {
       "code": "KH",
       "name": "Cambodia"
+    },
+    {
+      "code": "SB",
+      "name": "Solomon Islands"
     }
   ],
   "visa_on_arrival": [
+    {
+      "code": "BH",
+      "name": "Bahrain"
+    },
+    {
+      "code": "KM",
+      "name": "Comoro Islands"
+    },
     {
       "code": "ET",
       "name": "Ethiopia"
@@ -617,26 +629,6 @@
     {
       "code": "GW",
       "name": "Guinea-Bissau"
-    },
-    {
-      "code": "MG",
-      "name": "Madagascar"
-    },
-    {
-      "code": "MM",
-      "name": "Myanmar"
-    },
-    {
-      "code": "BH",
-      "name": "Bahrain"
-    },
-    {
-      "code": "BI",
-      "name": "Burundi"
-    },
-    {
-      "code": "KM",
-      "name": "Comoro Islands"
     },
     {
       "code": "JO",
@@ -651,12 +643,20 @@
       "name": "Lebanon"
     },
     {
+      "code": "MG",
+      "name": "Madagascar"
+    },
+    {
       "code": "MV",
       "name": "Maldives"
     },
     {
       "code": "MZ",
       "name": "Mozambique"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar"
     },
     {
       "code": "NP",
@@ -689,6 +689,10 @@
     {
       "code": "TV",
       "name": "Tuvalu"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi"
     },
     {
       "code": "DJ",
@@ -851,10 +855,6 @@
       "name": "Honduras"
     },
     {
-      "code": "HK",
-      "name": "Hong Kong (SAR China)"
-    },
-    {
       "code": "IQ",
       "name": "Iraq"
     },
@@ -864,7 +864,7 @@
     },
     {
       "code": "NR",
-      "name": "Nauru"
+      "name": "Naoero"
     },
     {
       "code": "KP",
@@ -893,10 +893,6 @@
     {
       "code": "SL",
       "name": "Sierra Leone"
-    },
-    {
-      "code": "SB",
-      "name": "Solomon Islands"
     },
     {
       "code": "SD",
